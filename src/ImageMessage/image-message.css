@@ -1,0 +1,22 @@
+
+.imageMessage,
+.imageMessage .imageContent,
+.imageMessage .messageText{
+  display: block;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.imageMessage .messageText {
+  width: 100%;
+}
+
+.imageMessage svg,
+.imageMessage img{
+  max-width: 100%;
+  width: 200px;
+}
+
+

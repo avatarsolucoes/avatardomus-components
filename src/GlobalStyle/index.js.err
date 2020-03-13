@@ -1,0 +1,19 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+// import Global from './Global';
+import initialState from './initialState';
+
+export default function GlobalStyle(props) {
+  const { theme } = props;
+  // return <Global theme={{ ...initialState, ...theme }} />;
+  return <div theme={{ ...initialState, ...theme }} />;
+}
+
+GlobalStyle.propTypes = {
+  theme: PropTypes.object,
+};
+
+GlobalStyle.defaultProps = {
+  theme: {},
+};

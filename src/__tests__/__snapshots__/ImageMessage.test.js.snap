@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageMessage Testando namesList 1`] = `
+Array [
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        ask.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        ask.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        ask.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        blocked.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        blocked.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        blocked.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        building.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        building.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        building.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        click.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        click.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        click.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        forbidden.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        forbidden.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        forbidden.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        locked.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        locked.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        locked.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        nofound.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        nofound.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        nofound.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        offline.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        offline.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        offline.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        sad.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        sad.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        sad.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        scripting.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        scripting.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        scripting.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        timeout.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        timeout.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        timeout.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        vehicle.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        vehicle.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        vehicle.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        unknow.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        unknow.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        unknow.svg
+      </svg>
+    </div>,
+  },
+]
+`;
+
+exports[`ImageMessage Testando with src 1`] = `
+Object {
+  "raw": <div
+    className="image-message"
+  >
+    <img
+      alt="unknow"
+      className="image-content"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "unknow.svg",
+        }
+      }
+      styles={Object {}}
+      title="unknow"
+    />
+  </div>,
+  "src": <div
+    className="image-message"
+  >
+    <img
+      alt="unknow"
+      className="image-content"
+      src="https://avatarsolucoesdigitais.com.br/images/logoh100.svg"
+      styles={Object {}}
+      title="unknow"
+    />
+  </div>,
+}
+`;

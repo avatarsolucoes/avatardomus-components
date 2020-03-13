@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Span Test Span 1`] = `
+Object {
+  "child": <span
+    className="text-span"
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "size": <span
+    className="text-span"
+    style={
+      Object {
+        "fontSize": 16,
+      }
+    }
+  >
+    test span
+  </span>,
+  "strong": <strong
+    className="text-span"
+    style={Object {}}
+  >
+    test span
+  </strong>,
+  "text": <span
+    className="text-span"
+    style={Object {}}
+  >
+    test span
+  </span>,
+}
+`;

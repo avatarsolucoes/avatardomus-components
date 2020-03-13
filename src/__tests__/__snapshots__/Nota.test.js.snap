@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nota Test Nota 1`] = `
+Object {
+  "child": <span
+    className="text-span text-nota"
+    style={
+      Object {
+        "display": "inline",
+      }
+    }
+  >
+    CHILDREN
+  </span>,
+  "size": <span
+    className="text-span text-nota"
+    style={
+      Object {
+        "fontSize": 16,
+      }
+    }
+  >
+    test nota
+  </span>,
+  "strong": <strong
+    className="text-span text-nota"
+    style={Object {}}
+  >
+    test nota
+  </strong>,
+  "text": <span
+    className="text-span text-nota"
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    test nota
+  </span>,
+}
+`;

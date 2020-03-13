@@ -1,0 +1,115 @@
+{
+  "name": "avatardomus-components",
+  "version": "1.0.2",
+  "description": "Components Avatar Domus",
+  "author": "Leandro Sbrissa",
+  "license": "MIT",
+  "homepage": "https://avatarsolucoesdigitais.com.br",
+  "bugs": {
+    "url": "https://github.com/avatarsolucoes/avatardomus-components/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avatarsolucoes/avatardomus-components.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "cross-env CI=1 react-scripts test --env=jsdom --coverage",
+    "test:update": "cross-env CI=1 react-scripts test --env=jsdom --coverage --updateSnapshot",
+    "test:watch": "react-scripts test --env=jsdom",
+    "lint": "eslint src --ext js,jsx,ts,tsx",
+    "eject": "react-scripts eject",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "chroma-js": "^2.1.0",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-stage-0": "^7.8.3",
+    "@babel/preset-stage-3": "^7.8.3",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@rollup/plugin-url": "^4.0.2",
+    "@svgr/rollup": "^5.2.0",
+    "@testing-library/dom": "^6.15.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-plugin-root-import": "5.1.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chroma-js": "^2.1.0",
+    "classnames": "^2.2.6",
+    "coveralls": "^3.0.3",
+    "cross-env": "^7.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import-helpers": "^0.1.4",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-is": "16.8.0",
+    "react-scripts": "3.4.0",
+    "react-test-renderer": "^16.13.0",
+    "rollup": "^2.0.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.4.1",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-url": "^3.0.1",
+    "styled-components": "^5.0.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "src/**/**/**/*.{js,ts,tsx}",
+      "src/**/**/*.{js,ts,tsx}",
+      "src/**/*.{js,ts,tsx}",
+      "!src/**/setup*.{js,ts,tsx}",
+      "!**/setup*.{js,ts,tsx}"
+    ],
+    "displayName": "avatardomus-components",
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": -10
+      }
+    }
+  }
+}

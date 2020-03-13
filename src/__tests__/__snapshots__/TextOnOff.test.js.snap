@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextOff Test TextOff 1`] = `
+Object {
+  "childOff": <span
+    className="text-span text-off contrast"
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "childOn": <span
+    className="text-span text-off contrast"
+    online={true}
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "empty": <span
+    className="text-span text-off contrast"
+    style={Object {}}
+  />,
+  "props": <span
+    className="undefined text-span bold text-off contrast"
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  />,
+  "textOff": <span
+    className="text-span text-off contrast"
+    style={Object {}}
+  >
+    test TextOff
+  </span>,
+  "textOn": <span
+    className="text-span text-off contrast"
+    online={true}
+    style={Object {}}
+  >
+    test TextOff
+  </span>,
+}
+`;
+
+exports[`TextOn Test TextOn 1`] = `
+Object {
+  "childOff": <span
+    className="text-span text-on"
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "childOn": <span
+    className="text-span text-on"
+    online={true}
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "empty": <span
+    className="text-span text-on"
+    style={Object {}}
+  />,
+  "props": <span
+    className="undefined text-span bold text-on"
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  />,
+  "textOff": <span
+    className="text-span text-on"
+    style={Object {}}
+  >
+    test TextOn
+  </span>,
+  "textOn": <span
+    className="text-span text-on"
+    online={true}
+    style={Object {}}
+  >
+    test TextOn
+  </span>,
+}
+`;
+
+exports[`TextOnOff Test TextOnOff 1`] = `
+Object {
+  "childOff": <span
+    className="text-span text-off contrast"
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "childOn": <span
+    className="text-span text-on"
+    style={Object {}}
+  >
+    CHILDREN
+  </span>,
+  "empty": <span
+    className="text-span text-off contrast"
+    style={Object {}}
+  >
+    Offline
+  </span>,
+  "props": <span
+    className="undefined text-span bold text-off contrast"
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    Offline
+  </span>,
+  "textOff": <span
+    className="text-span text-off contrast"
+    style={Object {}}
+  >
+    test nota
+  </span>,
+  "textOn": <span
+    className="text-span text-on"
+    style={Object {}}
+  >
+    test nota
+  </span>,
+}
+`;

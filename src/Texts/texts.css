@@ -1,0 +1,64 @@
+.textSpan {
+  padding: 0;
+  margin: 0;
+}
+
+.textOn {
+  color: #6ab16a;
+  padding: 0;
+}
+
+.textOff {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pBloco {
+  display: block;
+  max-width: 100%;
+}
+
+.pBloco.line {
+  border-bottom: rgba(255, 255, 255, 0.7) 1px solid;
+}
+
+.text-suplabel {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 10px;
+  opacity: 0.7;
+}
+
+.textNota {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.weak {
+  opacity: 0.6;
+}
+
+.f14{ font-size: 14px; }
+
+.pad2{ padding: 2px; }
+.pad4{ padding: 4px; }
+.pad6{ padding: 6px; }
+.pad8{ padding: 8px; }
+.pad10{ padding: 10px; }
+
+.padH0{ padding-left: 0; padding-right: 0; }
+.padV0{ padding-top: 0; padding-bottom: 0;}
+
+
+.pV0L4{ padding: 0 4px; }
+
+

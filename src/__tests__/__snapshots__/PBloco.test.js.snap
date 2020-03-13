@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PBloco Test PBloco 1`] = `
+Object {
+  "bloco": <p
+    className="pBloco"
+    style={
+      Object {
+        "textAlign": "right",
+      }
+    }
+  >
+    CHILDREN
+  </p>,
+  "line": <p
+    className="undefined pBloco line"
+    style={Object {}}
+  >
+    CHILDREN
+  </p>,
+}
+`;

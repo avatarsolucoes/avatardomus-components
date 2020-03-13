@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Span Test Span 1`] = `
+Object {
+  "text": <span
+    className="text-span undefined f14"
+    style={Object {}}
+  >
+    test span
+  </span>,
+}
+`;
+
+exports[`Span Test shallow 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoxCenter Test renderer whith children 1`] = `"<div class=\\"boxCenterColumn\\"><div class=\\"boxCenterLine\\">TESTE</div></div>"`;
+
+exports[`BoxCenter Test renderer without children 1`] = `"<div class=\\"boxCenterColumn test\\"><div class=\\"boxCenterLine\\"></div></div>"`;

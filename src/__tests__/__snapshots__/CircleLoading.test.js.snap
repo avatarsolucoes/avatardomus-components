@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircleLoading Test component without 1`] = `ShallowWrapper {}`;
+
+exports[`CircleLoading Teste renderer whith children 1`] = `
+<div
+  className=""
+  opacity={0.5}
+>
+  <div>
+    <div>
+      <div
+        duration={0.5}
+        style={
+          Object {
+            "animationDuration": "0.5s",
+            "borderTopColor": "#F00",
+            "borderWidth": 7,
+            "height": 44,
+            "width": 44,
+          }
+        }
+      />
+      TESTE
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CircleLoading Teste renderer whith text 1`] = `
+<div
+  className=""
+  opacity={0.5}
+>
+  <div>
+    <div>
+      <div
+        duration={0.5}
+        style={
+          Object {
+            "animationDuration": "0.5s",
+            "borderTopColor": "#F00",
+            "borderWidth": 7,
+            "height": 44,
+            "width": 44,
+          }
+        }
+      />
+      <div>
+        teste
+      </div>
+    </div>
+  </div>
+</div>
+`;

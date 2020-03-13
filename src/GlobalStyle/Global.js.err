@@ -1,0 +1,73 @@
+import chroma from 'chroma-js';
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+
+  body {
+    background-color: ${(props) => props.theme.bgprimary.background};
+    color: ${(props) => props.theme.bgprimary.color};
+    outline: 0;
+  }
+
+  *:focus { outline: 0; }
+
+  .primary{
+    color:${(props) => props.theme.primary};
+  }
+
+  .bgprimary{
+    background-color: ${(props) => props.theme.bgprimary.background};
+    color:${(props) => props.theme.bgprimary.color};
+  }
+
+  .secundary{
+    color:${(props) => props.theme.secundary};
+  }
+
+  .bgsecundary{
+    background-color: ${(props) => props.theme.bgsecundary.background};
+    color:${(props) => props.theme.bgsecundary.color};
+  }
+
+  .bgsecundary.hover:hover{
+    background-color: ${(props) => props.theme.bgcontrast.background};
+    color:${(props) => props.theme.bgcontrast.color};
+  }
+
+  .contrast {
+    color:${(props) => props.theme.contrast};
+  }
+
+  .bgcontrast {
+    background-color: ${(props) => props.theme.bgcontrast.background};
+    color:${(props) => props.theme.bgcontrast.color};
+  }
+
+  /* FORMS COLOR */
+  .hover{
+    transition: all ease 0.2s;
+  }
+
+  label.hover:hover, button:hover, a.hover:hover, .btn:hover {
+    background-color: ${(props) => props.theme.bgsecundary.background} !important;
+    color: #FFF;
+  }
+
+  .campo input:focus{
+    border: ${(props) => props.theme.secundary} 1px solid;
+
+  }
+  input:focus + .hover{
+    background-color: ${(props) => props.theme.bgsecundary.background};
+  }
+
+  .ReactTable .rt-thead .rt-th.-sort-asc,
+  .ReactTable .rt-thead .rt-td.-sort-asc {
+    box-shadow: inset 0 3px 0 0 ${(props) => chroma(props.theme.secundary).alpha(0.5)}
+  }
+
+  .ReactTable .rt-thead .rt-th.-sort-desc,
+  .ReactTable .rt-thead .rt-td.-sort-desc {
+    box-shadow: inset 0 -3px 0 0 ${(props) => chroma(props.theme.secundary).alpha(0.5)}
+  }
+`;
