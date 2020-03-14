@@ -7,9 +7,11 @@ import css from './box-center.css';
 export default function BoxCenter(props) {
   const { children, className } = props;
   return (
-    <div className={cx(css.boxCenterColumn, 'boxCenterColumn', className)}>
-      <div className={cx(css.boxCenterLine, 'boxCenterLine')}>{children}</div>
-    </div>
+    <>
+      <div className={cx(css.boxCenterColumn, 'boxCenterColumn', className)}>
+        <div className={cx(css.boxCenterLine, 'boxCenterLine')}>{children}</div>
+      </div>
+    </>
   );
 }
 
