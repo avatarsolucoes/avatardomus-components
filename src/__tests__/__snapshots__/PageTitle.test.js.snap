@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageTitle Test renderer whith children 1`] = `"<div class=\\"page-title test\\"><h1>Test Title</h1></div>"`;
