@@ -2,7 +2,7 @@
 
 > Components Avatar Domus
 
-[![NPM](https://img.shields.io/npm/v/avatardomus-components.svg)](https://www.npmjs.com/package/avatardomus-components)[![Coverage Status](https://coveralls.io/repos/github/avatarsolucoes/avatardomus-components/badge.svg)](https://coveralls.io/github/avatarsolucoes/avatardomus-components)
+[![NPM](https://img.shields.io/npm/v/avatardomus-components.svg)](https://www.npmjs.com/package/avatardomus-components)[![Coverage Status](https://coveralls.io/repos/github/avatarsolucoes/avatardomus-components/badge.svg?branch=master)](https://coveralls.io/github/avatarsolucoes/avatardomus-components?branch=master)
 
 
 ## Install
