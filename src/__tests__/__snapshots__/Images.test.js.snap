@@ -1,148 +1,284 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Images Test getImageType() COMPONENT 1`] = `
-Array [
-  <svg>
-    ask.svg
-  </svg>,
-  <svg>
-    blocked.svg
-  </svg>,
-  <svg>
-    building.svg
-  </svg>,
-  <svg>
-    click.svg
-  </svg>,
-  <svg>
-    forbidden.svg
-  </svg>,
-  <svg>
-    locked.svg
-  </svg>,
-  <svg>
-    nofound.svg
-  </svg>,
-  <svg>
-    offline.svg
-  </svg>,
-  <svg>
-    sad.svg
-  </svg>,
-  <svg>
-    scripting.svg
-  </svg>,
-  <svg>
-    timeout.svg
-  </svg>,
-  <svg>
-    vehicle.svg
-  </svg>,
-  <svg>
-    unknow.svg
-  </svg>,
-]
+exports[`Images Test RENDER 1`] = `
+Object {
+  "form": Array [
+    <svg>
+      input-checked.svg
+    </svg>,
+    <svg>
+      input-unchecked.svg
+    </svg>,
+    <svg>
+      lb-acha.svg
+    </svg>,
+    <svg>
+      lb-add.svg
+    </svg>,
+    <svg>
+      unknow.svg
+    </svg>,
+  ],
+  "icon": Array [
+    <svg>
+      dashboard.svg
+    </svg>,
+    <svg>
+      condominio.svg
+    </svg>,
+    <svg>
+      gestor.svg
+    </svg>,
+    <svg>
+      me.svg
+    </svg>,
+    <svg>
+      unknow.svg
+    </svg>,
+  ],
+  "message": Array [
+    <svg>
+      ask.svg
+    </svg>,
+    <svg>
+      blocked.svg
+    </svg>,
+    <svg>
+      building.svg
+    </svg>,
+    <svg>
+      click.svg
+    </svg>,
+    <svg>
+      forbidden.svg
+    </svg>,
+    <svg>
+      locked.svg
+    </svg>,
+    <svg>
+      nofound.svg
+    </svg>,
+    <svg>
+      offline.svg
+    </svg>,
+    <svg>
+      sad.svg
+    </svg>,
+    <svg>
+      scripting.svg
+    </svg>,
+    <svg>
+      timeout.svg
+    </svg>,
+    <svg>
+      vehicle.svg
+    </svg>,
+    <svg>
+      unknow.svg
+    </svg>,
+  ],
+}
 `;
 
 exports[`Images Test getImageType() SVG 1`] = `
-Array [
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+Object {
+  "form": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "input-checked.svg",
     },
-    "__esModule": true,
-    "default": "ask.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "input-unchecked.svg",
     },
-    "__esModule": true,
-    "default": "blocked.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-acha.svg",
     },
-    "__esModule": true,
-    "default": "building.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-add.svg",
     },
-    "__esModule": true,
-    "default": "click.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "unknow.svg",
     },
-    "__esModule": true,
-    "default": "forbidden.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+  ],
+  "icon": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "dashboard.svg",
     },
-    "__esModule": true,
-    "default": "locked.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "condominio.svg",
     },
-    "__esModule": true,
-    "default": "nofound.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "gestor.svg",
     },
-    "__esModule": true,
-    "default": "offline.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "me.svg",
     },
-    "__esModule": true,
-    "default": "sad.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "unknow.svg",
     },
-    "__esModule": true,
-    "default": "scripting.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+  ],
+  "message": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "ask.svg",
     },
-    "__esModule": true,
-    "default": "timeout.svg",
-  },
-  Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "blocked.svg",
     },
-    "__esModule": true,
-    "default": "vehicle.svg",
-  },
-  Object {
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "building.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "click.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "forbidden.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "locked.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "nofound.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "offline.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "sad.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "scripting.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "timeout.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "vehicle.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "unknow.svg",
+    },
+  ],
+}
+`;
+
+exports[`Images Test unknow images FORM 1`] = `
+Object {
+  "unComp": "<svg>unknow.svg</svg>",
+  "unSvg": Object {
     "ReactComponent": Object {
       "$$typeof": Symbol(react.forward_ref),
       "render": [Function],
@@ -150,14 +286,26 @@ Array [
     "__esModule": true,
     "default": "unknow.svg",
   },
-]
+}
 `;
 
-exports[`Images Test unknow images 1`] = `
+exports[`Images Test unknow images ICON 1`] = `
 Object {
-  "unComp": <svg>
-    unknow.svg
-  </svg>,
+  "unComp": "<svg>unknow.svg</svg>",
+  "unSvg": Object {
+    "ReactComponent": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    },
+    "__esModule": true,
+    "default": "unknow.svg",
+  },
+}
+`;
+
+exports[`Images Test unknow images MESSAGE 1`] = `
+Object {
+  "unComp": "<svg>unknow.svg</svg>",
   "unSvg": Object {
     "ReactComponent": Object {
       "$$typeof": Symbol(react.forward_ref),

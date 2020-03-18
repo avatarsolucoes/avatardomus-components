@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
-import { getImageByType } from '../Images';
+import { getImageByType } from '../Images/message';
 
 import css from './image-message.css';
 

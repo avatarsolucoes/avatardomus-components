@@ -1,0 +1,164 @@
+/* CARDS */
+.listOfCards,
+.listOfCards .cardOffset,
+.listOfCards .cardItem {
+  position: relative;
+  max-width: 100%;
+  border: 0;
+  padding: 0;
+}
+
+.listOfCards {
+  margin: 0 auto;
+  padding: 0 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.listOfCards.stretch {
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.listOfCards .cardOffset {
+  margin: 0;
+  padding: 0 2px 4px 2px;
+  border: 0;
+}
+
+.listOfCards .cardItem {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  margin: 0;
+  width: 100%;
+  border: #000 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.7) 1px 1px 2px;
+}
+
+.listOfCards .cardItemTitle {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 4px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.listOfCards .cardItemContent {
+  position: relative;
+  display: block;
+  max-width: 100% !important;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.listOfCards .mini {
+  width: 50%;
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.listOfCards .w50 {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.listOfCards .w25 {
+  width: 50%;
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.listOfCards .mini h1,
+.listOfCards .mini h2,
+.listOfCards .mini h3,
+.listOfCards .mini h4 {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.listOfCards .cardItemTitle h1,
+.listOfCards .cardItemTitle h2,
+.listOfCards .cardItemTitle h3,
+.listOfCards .cardItemTitle h4 {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* CORRECAO PARA MOBILE */
+@media screen and (max-width: 720px) {
+  .listOfCards .mobileW25 {
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
+  }
+
+  .listOfCards .mobileW50 {
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+  }
+
+  .listOfCards .mobileW100 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+/* CORRECAO PARA DESKTOP */
+@media screen and (min-width: 721px) {
+  .listOfCards .cardItem {
+    width: auto;
+  }
+
+  .listOfCards .mini {
+    width: auto;
+    max-width: 100%;
+    min-width: 100px;
+  }
+
+  .listOfCards .w50 {
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+  }
+
+  .listOfCards .w25 {
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
+  }
+
+  .listOfCards .deskW25 {
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
+  }
+
+  .listOfCards .deskW50 {
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+  }
+
+  .listOfCards .deskW100 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+}

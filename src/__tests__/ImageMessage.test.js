@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 // import { shallow } from '../../setupEnzyme';
 
 import { ImageMessage } from '../ImageMessage';
-import { svgComponentList, getKeyImage } from '../Images';
+import { imgMessage, getKeyImage } from '../Images';
 
 const src = 'https://avatarsolucoesdigitais.com.br/images/logoh100.svg';
 
@@ -12,8 +12,8 @@ describe('ImageMessage', () => {
     expect(ImageMessage).toBeTruthy();
   });
 
-  const namesList = getKeyImage(svgComponentList);
-  it(`Testando namesList`, () => {
+  const namesList = getKeyImage(imgMessage.componentList);
+  it(`Test namesList`, () => {
     const imagesMount = namesList.map((imgKey) => {
       return {
         withouText: renderer.create(<ImageMessage type={imgKey} className="teste1" />).toJSON(),
@@ -24,7 +24,7 @@ describe('ImageMessage', () => {
     expect(imagesMount).toMatchSnapshot();
   });
 
-  it(`Testando with src`, () => {
+  it(`Test with src`, () => {
     const wrapper = {
       raw: renderer.create(<ImageMessage raw src={src} />).toJSON(),
       src: renderer.create(<ImageMessage src={src} />).toJSON(),

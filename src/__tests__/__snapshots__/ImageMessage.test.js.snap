@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ImageMessage Testando namesList 1`] = `
+exports[`ImageMessage Test namesList 1`] = `
 Array [
   Object {
     "raw": <div
@@ -408,7 +408,7 @@ Array [
 ]
 `;
 
-exports[`ImageMessage Testando with src 1`] = `
+exports[`ImageMessage Test with src 1`] = `
 Object {
   "raw": <div
     className="image-message"
