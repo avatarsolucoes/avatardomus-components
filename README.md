@@ -19,10 +19,10 @@ import React from 'react'
 import { ImageMessage } from 'avatardomus-components'
 
 export default function Message() {
-  return <ImageMessage type="ask" text="Do you want to ask a question?" />
+  return <ImageMessage type="Ask" text="Do you want to ask a question?" />
 }
 ```
 
 ## License
 
-MIT © [Leandro Sbrissa](https://github.com/avatarsolucoes)
+MIT © [Avatar Solu&ccedil;&otilde;es Digitais](https://github.com/avatarsolucoes)

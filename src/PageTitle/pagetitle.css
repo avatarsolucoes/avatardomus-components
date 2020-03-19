@@ -1,7 +1,7 @@
 .pageTitle{
   width: 900px;
   max-width: 100%;
-  padding: 8px;
+  padding: 8px 4px;
   margin: 0 auto;
   border: 0;
 }
@@ -11,6 +11,7 @@
 .pageTitle h4{
   margin: 0 auto;
   display: block;
+  max-width: 100%;
 }
 
 .pageTitle h1,

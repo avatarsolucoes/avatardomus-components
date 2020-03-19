@@ -9,8 +9,13 @@ describe('PageTitle', () => {
   });
 
   it('Test renderer whith children', () => {
+    const estilo = {
+      width: '100%',
+      maxWidth: '100%',
+    };
+
     const wrapper = shallow(
-      <PageTitle className="test">
+      <PageTitle className="test" style={estilo}>
         <h1>Test Title</h1>
       </PageTitle>,
     );

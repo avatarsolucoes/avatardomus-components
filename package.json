@@ -32,12 +32,7 @@
     "eject": "react-scripts eject",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
-  "dependencies": {
-    "react-datepicker": "^2.14.0",
-    "react-input-mask": "^2.0.4",
-    "react-router-dom": "^5.1.2",
-    "react-select": "^3.0.8"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
@@ -88,6 +83,7 @@
     "react-css-component": "^1.0.2",
     "react-dom": "^16.13.0",
     "react-is": "16.8.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-test-renderer": "^16.13.0",
     "rollup": "^2.0.3",
@@ -101,6 +97,12 @@
     "styled-components": "^5.0.1",
     "typescript": "^3.8.3"
   },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "jest": {
     "clearMocks": true,
     "collectCoverageFrom": [
