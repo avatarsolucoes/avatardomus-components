@@ -30,7 +30,7 @@ export default function Span(props) {
 
 Span.propTypes = {
   children: PropTypes.any,
-  text: PropTypes.string,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   className: PropTypes.string,
   size: PropTypes.number,
   bold: PropTypes.bool,

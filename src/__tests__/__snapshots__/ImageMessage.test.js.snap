@@ -7,7 +7,7 @@ Array [
       className="image-message"
     >
       <svg>
-        ask.svg
+        msg-ask.svg
       </svg>
     </div>,
     "withText": <div
@@ -17,7 +17,7 @@ Array [
         height={100}
         width={100}
       >
-        ask.svg
+        msg-ask.svg
       </svg>
       <p
         className="message-text"
@@ -29,7 +29,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        ask.svg
+        msg-ask.svg
       </svg>
     </div>,
   },
@@ -38,7 +38,7 @@ Array [
       className="image-message"
     >
       <svg>
-        blocked.svg
+        msg-blocked.svg
       </svg>
     </div>,
     "withText": <div
@@ -48,7 +48,7 @@ Array [
         height={100}
         width={100}
       >
-        blocked.svg
+        msg-blocked.svg
       </svg>
       <p
         className="message-text"
@@ -60,7 +60,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        blocked.svg
+        msg-blocked.svg
       </svg>
     </div>,
   },
@@ -69,7 +69,7 @@ Array [
       className="image-message"
     >
       <svg>
-        building.svg
+        msg-building.svg
       </svg>
     </div>,
     "withText": <div
@@ -79,7 +79,7 @@ Array [
         height={100}
         width={100}
       >
-        building.svg
+        msg-building.svg
       </svg>
       <p
         className="message-text"
@@ -91,7 +91,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        building.svg
+        msg-building.svg
       </svg>
     </div>,
   },
@@ -100,7 +100,7 @@ Array [
       className="image-message"
     >
       <svg>
-        click.svg
+        msg-click.svg
       </svg>
     </div>,
     "withText": <div
@@ -110,7 +110,7 @@ Array [
         height={100}
         width={100}
       >
-        click.svg
+        msg-click.svg
       </svg>
       <p
         className="message-text"
@@ -122,7 +122,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        click.svg
+        msg-click.svg
       </svg>
     </div>,
   },
@@ -131,7 +131,7 @@ Array [
       className="image-message"
     >
       <svg>
-        forbidden.svg
+        msg-forbidden.svg
       </svg>
     </div>,
     "withText": <div
@@ -141,7 +141,7 @@ Array [
         height={100}
         width={100}
       >
-        forbidden.svg
+        msg-forbidden.svg
       </svg>
       <p
         className="message-text"
@@ -153,7 +153,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        forbidden.svg
+        msg-forbidden.svg
       </svg>
     </div>,
   },
@@ -162,7 +162,7 @@ Array [
       className="image-message"
     >
       <svg>
-        locked.svg
+        msg-locked.svg
       </svg>
     </div>,
     "withText": <div
@@ -172,7 +172,7 @@ Array [
         height={100}
         width={100}
       >
-        locked.svg
+        msg-locked.svg
       </svg>
       <p
         className="message-text"
@@ -184,7 +184,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        locked.svg
+        msg-locked.svg
       </svg>
     </div>,
   },
@@ -193,7 +193,7 @@ Array [
       className="image-message"
     >
       <svg>
-        nofound.svg
+        msg-nofound.svg
       </svg>
     </div>,
     "withText": <div
@@ -203,7 +203,7 @@ Array [
         height={100}
         width={100}
       >
-        nofound.svg
+        msg-nofound.svg
       </svg>
       <p
         className="message-text"
@@ -215,7 +215,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        nofound.svg
+        msg-nofound.svg
       </svg>
     </div>,
   },
@@ -224,7 +224,7 @@ Array [
       className="image-message"
     >
       <svg>
-        offline.svg
+        msg-offline.svg
       </svg>
     </div>,
     "withText": <div
@@ -234,7 +234,7 @@ Array [
         height={100}
         width={100}
       >
-        offline.svg
+        msg-offline.svg
       </svg>
       <p
         className="message-text"
@@ -246,7 +246,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        offline.svg
+        msg-offline.svg
       </svg>
     </div>,
   },
@@ -255,7 +255,7 @@ Array [
       className="image-message"
     >
       <svg>
-        sad.svg
+        msg-sad.svg
       </svg>
     </div>,
     "withText": <div
@@ -265,7 +265,7 @@ Array [
         height={100}
         width={100}
       >
-        sad.svg
+        msg-sad.svg
       </svg>
       <p
         className="message-text"
@@ -277,7 +277,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        sad.svg
+        msg-sad.svg
       </svg>
     </div>,
   },
@@ -286,7 +286,7 @@ Array [
       className="image-message"
     >
       <svg>
-        scripting.svg
+        msg-scripting.svg
       </svg>
     </div>,
     "withText": <div
@@ -296,7 +296,7 @@ Array [
         height={100}
         width={100}
       >
-        scripting.svg
+        msg-scripting.svg
       </svg>
       <p
         className="message-text"
@@ -308,7 +308,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        scripting.svg
+        msg-scripting.svg
       </svg>
     </div>,
   },
@@ -317,7 +317,7 @@ Array [
       className="image-message"
     >
       <svg>
-        timeout.svg
+        msg-timeout.svg
       </svg>
     </div>,
     "withText": <div
@@ -327,7 +327,7 @@ Array [
         height={100}
         width={100}
       >
-        timeout.svg
+        msg-timeout.svg
       </svg>
       <p
         className="message-text"
@@ -339,7 +339,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        timeout.svg
+        msg-timeout.svg
       </svg>
     </div>,
   },
@@ -348,7 +348,7 @@ Array [
       className="image-message"
     >
       <svg>
-        vehicle.svg
+        msg-vehicle.svg
       </svg>
     </div>,
     "withText": <div
@@ -358,7 +358,7 @@ Array [
         height={100}
         width={100}
       >
-        vehicle.svg
+        msg-vehicle.svg
       </svg>
       <p
         className="message-text"
@@ -370,7 +370,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        vehicle.svg
+        msg-vehicle.svg
       </svg>
     </div>,
   },
@@ -379,7 +379,7 @@ Array [
       className="image-message"
     >
       <svg>
-        unknow.svg
+        msg-unknow.svg
       </svg>
     </div>,
     "withText": <div
@@ -389,7 +389,7 @@ Array [
         height={100}
         width={100}
       >
-        unknow.svg
+        msg-unknow.svg
       </svg>
       <p
         className="message-text"
@@ -401,7 +401,7 @@ Array [
       className="image-message teste1"
     >
       <svg>
-        unknow.svg
+        msg-unknow.svg
       </svg>
     </div>,
   },
@@ -423,7 +423,7 @@ Object {
             "render": [Function],
           },
           "__esModule": true,
-          "default": "unknow.svg",
+          "default": "msg-unknow.svg",
         }
       }
       styles={Object {}}

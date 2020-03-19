@@ -1,6 +1,6 @@
 {
   "name": "avatardomus-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Components Avatar Domus",
   "author": "Leandro Sbrissa",
   "license": "MIT",
@@ -19,7 +19,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "engines": {
-    "node": ">=8",
+    "node": ">=10",
     "npm": ">=6"
   },
   "scripts": {
@@ -32,11 +32,18 @@
     "eject": "react-scripts eject",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-datepicker": "^2.14.0",
+    "react-input-mask": "^2.0.4",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.0.8"
+  },
   "peerDependencies": {
+    "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -51,6 +58,7 @@
     "@testing-library/dom": "^6.15.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
+    "@testing-library/react-hooks": "^3.2.1",
     "@testing-library/user-event": "^7.1.2",
     "babel-plugin-root-import": "5.1.0",
     "babel-preset-stage-0": "^6.24.1",
