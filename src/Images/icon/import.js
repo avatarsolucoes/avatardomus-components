@@ -1,8 +1,8 @@
-import dashboard from '../assets/icons/dashboard.svg';
-import condominio from '../assets/icons/condominio.svg';
-import gestor from '../assets/icons/gestor.svg';
-import me from '../assets/icons/me.svg';
-import unknow from '../assets/icons/unknow.svg';
+import dashboard from './assets/dashboard.svg';
+import condominio from './assets/condominio.svg';
+import gestor from './assets/gestor.svg';
+import me from './assets/me.svg';
+import unknow from './assets/unknow.svg';
 
 export const ImagesIcon = {
   dashboard,

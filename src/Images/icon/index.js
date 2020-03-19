@@ -8,7 +8,7 @@ import importList from './import';
  * @param {Boolean} isSvg
  * @returns {import('react').ReactSVG|String}
  */
-export function getImageByType(typeImage, isSvg) {
+function getImageByType(typeImage, isSvg) {
   if (!isSvg) {
     return typeImage in componentList ? componentList[typeImage] : componentList.Unknow;
   }

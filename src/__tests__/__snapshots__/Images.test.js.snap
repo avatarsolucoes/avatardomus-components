@@ -1,88 +1,187 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Images Test RENDER 1`] = `
+exports[`Images Test images BUTTONS 1`] = `
 Object {
-  "form": Array [
-    <svg>
-      input-checked.svg
-    </svg>,
-    <svg>
-      input-unchecked.svg
-    </svg>,
-    <svg>
-      lb-acha.svg
-    </svg>,
-    <svg>
-      lb-add.svg
-    </svg>,
-    <svg>
-      unknow.svg
-    </svg>,
+  "component": Array [
+    "<svg>btn-add.svg</svg>",
+    "<svg>btn-back.svg</svg>",
+    "<svg>btn-del.svg</svg>",
+    "<svg>btn-edit.svg</svg>",
+    "<svg>btn-follow.svg</svg>",
+    "<svg>btn-rel.svg</svg>",
+    "<svg>btn-reldown.svg</svg>",
+    "<svg>btn-relup.svg</svg>",
+    "<svg>btn-save.svg</svg>",
+    "<svg>btn-update.svg</svg>",
+    "<svg>btn-unknow.svg</svg>",
   ],
-  "icon": Array [
-    <svg>
-      dashboard.svg
-    </svg>,
-    <svg>
-      condominio.svg
-    </svg>,
-    <svg>
-      gestor.svg
-    </svg>,
-    <svg>
-      me.svg
-    </svg>,
-    <svg>
-      unknow.svg
-    </svg>,
+  "importing": Array [
+    "btn-add.svg",
+    "btn-back.svg",
+    "btn-del.svg",
+    "btn-edit.svg",
+    "btn-follow.svg",
+    "btn-rel.svg",
+    "btn-reldown.svg",
+    "btn-relup.svg",
+    "btn-save.svg",
+    "btn-update.svg",
+    "btn-unknow.svg",
   ],
-  "message": Array [
-    <svg>
-      ask.svg
-    </svg>,
-    <svg>
-      blocked.svg
-    </svg>,
-    <svg>
-      building.svg
-    </svg>,
-    <svg>
-      click.svg
-    </svg>,
-    <svg>
-      forbidden.svg
-    </svg>,
-    <svg>
-      locked.svg
-    </svg>,
-    <svg>
-      nofound.svg
-    </svg>,
-    <svg>
-      offline.svg
-    </svg>,
-    <svg>
-      sad.svg
-    </svg>,
-    <svg>
-      scripting.svg
-    </svg>,
-    <svg>
-      timeout.svg
-    </svg>,
-    <svg>
-      vehicle.svg
-    </svg>,
-    <svg>
-      unknow.svg
-    </svg>,
+  "nulo": Object {
+    "comp": "<svg>btn-unknow.svg</svg>",
+    "plain": Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-unknow.svg",
+    },
+  },
+  "require": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-add.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-back.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-del.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-edit.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-follow.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-rel.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-reldown.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-relup.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-save.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-update.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-unknow.svg",
+    },
   ],
 }
 `;
 
-exports[`Images Test getImageType() SVG 1`] = `
+exports[`Images Test images FORM 1`] = `
 Object {
-  "form": Array [
+  "component": Array [
+    "<svg>input-checked.svg</svg>",
+    "<svg>input-unchecked.svg</svg>",
+    "<svg>lb-exclude.svg</svg>",
+    "<svg>lb-version.svg</svg>",
+    "<svg>lb-timeout.svg</svg>",
+    "<svg>lb-acha.svg</svg>",
+    "<svg>lb-add.svg</svg>",
+    "<svg>lb-email.svg</svg>",
+    "<svg>lb-pwd.svg</svg>",
+    "<svg>lb-rotu.svg</svg>",
+    "<svg>lb-nome.svg</svg>",
+    "<svg>lb-tel.svg</svg>",
+    "<svg>lb-cel.svg</svg>",
+    "<svg>lb-mac.svg</svg>",
+    "<svg>lb-bar.svg</svg>",
+    "<svg>unknow.svg</svg>",
+  ],
+  "importing": Array [
+    "input-checked.svg",
+    "input-unchecked.svg",
+    "lb-exclude.svg",
+    "lb-timeout.svg",
+    "lb-version.svg",
+    "lb-acha.svg",
+    "lb-add.svg",
+    "lb-email.svg",
+    "lb-pwd.svg",
+    "lb-rotu.svg",
+    "lb-nome.svg",
+    "lb-tel.svg",
+    "lb-cel.svg",
+    "lb-mac.svg",
+    "lb-bar.svg",
+    "unknow.svg",
+  ],
+  "nulo": Object {
+    "comp": "<svg>unknow.svg</svg>",
+    "plain": Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "unknow.svg",
+    },
+  },
+  "require": Array [
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -98,6 +197,30 @@ Object {
       },
       "__esModule": true,
       "default": "input-unchecked.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-exclude.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-timeout.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-version.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -121,10 +244,104 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
+      "default": "lb-email.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-pwd.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-nome.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-rotu.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-tel.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-cel.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-mac.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-bar.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
       "default": "unknow.svg",
     },
   ],
-  "icon": Array [
+}
+`;
+
+exports[`Images Test images ICON 1`] = `
+Object {
+  "component": Array [
+    "<svg>dashboard.svg</svg>",
+    "<svg>condominio.svg</svg>",
+    "<svg>gestor.svg</svg>",
+    "<svg>me.svg</svg>",
+    "<svg>unknow.svg</svg>",
+  ],
+  "importing": Array [
+    "dashboard.svg",
+    "condominio.svg",
+    "gestor.svg",
+    "me.svg",
+    "unknow.svg",
+  ],
+  "nulo": Object {
+    "comp": "<svg>unknow.svg</svg>",
+    "plain": Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "unknow.svg",
+    },
+  },
+  "require": Array [
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -166,14 +383,60 @@ Object {
       "default": "unknow.svg",
     },
   ],
-  "message": Array [
+}
+`;
+
+exports[`Images Test images MESSAGE 1`] = `
+Object {
+  "component": Array [
+    "<svg>msg-ask.svg</svg>",
+    "<svg>msg-blocked.svg</svg>",
+    "<svg>msg-building.svg</svg>",
+    "<svg>msg-click.svg</svg>",
+    "<svg>msg-forbidden.svg</svg>",
+    "<svg>msg-locked.svg</svg>",
+    "<svg>msg-nofound.svg</svg>",
+    "<svg>msg-offline.svg</svg>",
+    "<svg>msg-sad.svg</svg>",
+    "<svg>msg-scripting.svg</svg>",
+    "<svg>msg-timeout.svg</svg>",
+    "<svg>msg-vehicle.svg</svg>",
+    "<svg>msg-unknow.svg</svg>",
+  ],
+  "importing": Array [
+    "msg-ask.svg",
+    "msg-blocked.svg",
+    "msg-building.svg",
+    "msg-click.svg",
+    "msg-forbidden.svg",
+    "msg-locked.svg",
+    "msg-nofound.svg",
+    "msg-offline.svg",
+    "msg-sad.svg",
+    "msg-scripting.svg",
+    "msg-timeout.svg",
+    "msg-vehicle.svg",
+    "msg-unknow.svg",
+  ],
+  "nulo": Object {
+    "comp": "<svg>msg-unknow.svg</svg>",
+    "plain": Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "msg-unknow.svg",
+    },
+  },
+  "require": Array [
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),
         "render": [Function],
       },
       "__esModule": true,
-      "default": "ask.svg",
+      "default": "msg-ask.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -181,7 +444,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "blocked.svg",
+      "default": "msg-blocked.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -189,7 +452,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "building.svg",
+      "default": "msg-building.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -197,7 +460,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "click.svg",
+      "default": "msg-click.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -205,7 +468,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "forbidden.svg",
+      "default": "msg-forbidden.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -213,7 +476,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "locked.svg",
+      "default": "msg-locked.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -221,7 +484,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "nofound.svg",
+      "default": "msg-nofound.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -229,7 +492,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "offline.svg",
+      "default": "msg-offline.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -237,7 +500,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "sad.svg",
+      "default": "msg-sad.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -245,7 +508,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "scripting.svg",
+      "default": "msg-scripting.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -253,7 +516,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "timeout.svg",
+      "default": "msg-timeout.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -261,7 +524,7 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "vehicle.svg",
+      "default": "msg-vehicle.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -269,50 +532,8 @@ Object {
         "render": [Function],
       },
       "__esModule": true,
-      "default": "unknow.svg",
+      "default": "msg-unknow.svg",
     },
   ],
-}
-`;
-
-exports[`Images Test unknow images FORM 1`] = `
-Object {
-  "unComp": "<svg>unknow.svg</svg>",
-  "unSvg": Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
-    },
-    "__esModule": true,
-    "default": "unknow.svg",
-  },
-}
-`;
-
-exports[`Images Test unknow images ICON 1`] = `
-Object {
-  "unComp": "<svg>unknow.svg</svg>",
-  "unSvg": Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
-    },
-    "__esModule": true,
-    "default": "unknow.svg",
-  },
-}
-`;
-
-exports[`Images Test unknow images MESSAGE 1`] = `
-Object {
-  "unComp": "<svg>unknow.svg</svg>",
-  "unSvg": Object {
-    "ReactComponent": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "render": [Function],
-    },
-    "__esModule": true,
-    "default": "unknow.svg",
-  },
 }
 `;
