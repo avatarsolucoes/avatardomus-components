@@ -23,7 +23,7 @@ export default function Text(props) {
 
 Text.propTypes = {
   children: PropTypes.any,
-  text: PropTypes.string,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   className: PropTypes.string,
 };
 

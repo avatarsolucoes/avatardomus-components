@@ -15,11 +15,11 @@ export function getImageByType(typeImage, isSvg) {
   return typeImage in requireList ? requireList[typeImage] : requireList.unknow;
 }
 
-const Icon = {
+const ImagesForm = {
   getImageByType,
   componentList,
   requireList,
   importList,
 };
 
-export default Icon;
+export default ImagesForm;
