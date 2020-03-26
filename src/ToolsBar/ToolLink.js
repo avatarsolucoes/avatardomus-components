@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import { Link } from 'react-router-dom';
 
 import { imgButton } from '../Images';
 import ToolItem from './ToolItem';
@@ -20,9 +19,9 @@ export default function ToolLink(props) {
 
   return (
     <ToolItem>
-      <Link to={path} className={classBtn} disabled={disabled} style={styles} {...rest}>
+      <a href={path} className={classBtn} disabled={disabled} style={styles} {...rest}>
         {children}
-      </Link>
+      </a>
     </ToolItem>
   );
 }
