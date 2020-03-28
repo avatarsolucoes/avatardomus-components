@@ -1,6 +1,6 @@
 import React from 'react';
 // import renderer from 'react-test-renderer';
-import { shallow } from '../setupEnzyme';
+import { shallow } from 'enzyme';
 
 import { getKeyImage, imgForm, imgIcon, imgMessage, imgButton } from '../Images';
 

@@ -15,8 +15,9 @@ export default function Tabs(props) {
   }
 
   function cloneTabElement(tab, index = 0) {
+    if (!tab) return null;
     return React.cloneElement(tab, {
-      onClick: () => {
+      onClickTab: () => {
         handleTabClick(index);
       },
       tabIndex: index,
@@ -34,6 +35,7 @@ export default function Tabs(props) {
 
   function renderActiveTabContent() {
     const { children } = props;
+    if (!children) return null;
     if (children[activeIndex]) {
       return children[activeIndex].props.children;
     }
@@ -53,12 +55,13 @@ export default function Tabs(props) {
 }
 
 Tabs.propTypes = {
-  children: PropTypes.any.isRequired,
+  children: PropTypes.any,
   className: PropTypes.string,
   defaultActiveIndex: PropTypes.number,
 };
 
 Tabs.defaultProps = {
+  children: null,
   className: null,
   defaultActiveIndex: 0,
 };

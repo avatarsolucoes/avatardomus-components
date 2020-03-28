@@ -1,6 +1,5 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-// import { shallow } from '../../setupEnzyme';
 
 import { Nota } from '../Texts';
 
