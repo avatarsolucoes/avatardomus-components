@@ -8,7 +8,7 @@ export default function ListCards(props) {
   const { children, className, stretch, ...rest } = props;
   const cfgClass = {
     [css.listOfCards]: true,
-    [css.stretch]: stretch,
+    [css.stretch]: !!stretch,
   };
 
   const classe = cx(cfgClass, 'list-of-cards', className);

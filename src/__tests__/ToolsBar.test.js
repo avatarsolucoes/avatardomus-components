@@ -3,8 +3,8 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 // import { renderHook } from '@testing-library/react-hooks';
 
-import { BrowserRouter } from 'react-router-dom';
-import { shallow, mount } from '../setupEnzyme';
+import { shallow, mount } from 'enzyme';
+
 import { ToolsBar, ToolButton, ToolItem, ToolLink, ItemTitle, ItemButtons, ToolSelectItem } from '..';
 
 const daysOptions = [
@@ -46,7 +46,6 @@ describe('TableDiv', () => {
 
   it('Test TableDiv renderer whith children', () => {
     const wrapper = shallow(
-      <BrowserRouter>
         <ToolsBar line>
           <ItemTitle text="My test" />
           <ItemTitle>Teste title</ItemTitle>
@@ -57,7 +56,6 @@ describe('TableDiv', () => {
             <ToolLink icon="add" value="https://avatarsolucoesdigitais.com.br" disabled />
           </ItemButtons>
         </ToolsBar>
-      </BrowserRouter>,
     );
 
     expect(wrapper.html()).toMatchSnapshot();
