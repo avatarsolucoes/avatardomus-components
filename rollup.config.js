@@ -7,6 +7,7 @@ import svgr from '@svgr/rollup';
 import postcss from 'rollup-plugin-postcss';
 import postcssUrl from 'postcss-url';
 import postcssImport from 'postcss-import';
+import typescript from 'rollup-plugin-typescript2';
 import pkg from './package.json';
 
 function makeExternalPredicate(externalArr) {
@@ -30,11 +31,13 @@ export default {
     {
       file: pkg.main,
       format: 'cjs',
+      exports: 'named',
       sourcemap: true,
     },
     {
       file: pkg.module,
       format: 'es',
+      exports: 'named',
       sourcemap: true,
     },
   ],
@@ -56,6 +59,19 @@ export default {
     }),
     babel({
       exclude: 'node_modules/**',
+    }),
+    typescript({
+      tsconfigOverride: {
+        compilerOptions: {
+          declaration: true,
+          declarationDir: './dist/index',
+          declarationMap: true,
+        },
+        include: ['./src'],
+        exclude: ['node_modules', 'build', 'dist', 'example', 'rollup.config.js', 'src/__tests__', 'src/setup*.js'],
+      },
+      rollupCommonJSResolveHack: false,
+      clean: true,
     }),
     resolve(),
     commonjs(),

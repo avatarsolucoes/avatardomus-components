@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from '../setupEnzyme';
+import { shallow } from 'enzyme';
 import { TableDiv, DivLine, DivCell, SupLabel } from '..';
 
 // import { round } from '../helpers/formats';

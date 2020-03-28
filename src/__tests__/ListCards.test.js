@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from '../setupEnzyme';
+import { shallow } from 'enzyme';
 import { ListCards, CardItem, CardTitle, CardContent } from '..';
 
 function TestAll() {
