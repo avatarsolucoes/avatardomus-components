@@ -1,4 +1,5 @@
 import ask from './assets/msg-ask.svg';
+import askcaution from './assets/msg-askcaution.svg';
 import blocked from './assets/msg-blocked.svg';
 import building from './assets/msg-building.svg';
 import click from './assets/msg-click.svg';
@@ -14,6 +15,7 @@ import unknow from './assets/msg-unknow.svg';
 
 const listImagesAsSvg = {
   ask,
+  askcaution,
   blocked,
   building,
   click,

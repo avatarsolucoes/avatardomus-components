@@ -1,4 +1,5 @@
 import { ReactComponent as Ask } from './assets/msg-ask.svg';
+import { ReactComponent as Askcaution } from './assets/msg-askcaution.svg';
 import { ReactComponent as Building } from './assets/msg-building.svg';
 import { ReactComponent as Blocked } from './assets/msg-blocked.svg';
 import { ReactComponent as Click } from './assets/msg-click.svg';
@@ -14,6 +15,7 @@ import { ReactComponent as Unknow } from './assets/msg-unknow.svg';
 
 const listImagesAsComponent = {
   Ask,
+  Askcaution,
   Blocked,
   Building,
   Click,

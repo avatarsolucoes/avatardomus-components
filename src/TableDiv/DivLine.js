@@ -4,7 +4,7 @@ import cx from 'classnames';
 import css from './tablediv.css';
 
 export default function DivLine(props) {
-  const { children, className, fstart, fend, fcenter, faround, fbetween, ...rest } = props;
+  const { children, className, fstart, fend, fcenter, faround, fbetween, deleted, ...rest } = props;
 
   const cfgClass = {
     [css.tabledivLine]: true,
@@ -13,6 +13,7 @@ export default function DivLine(props) {
     [css.fcenter]: !!fcenter,
     [css.faround]: !!faround,
     [css.fbetween]: !!fbetween,
+    [css.linedeleted]: !!deleted,
   };
 
   const cfgClassLine = {
@@ -21,6 +22,7 @@ export default function DivLine(props) {
     fcenter: !!fcenter,
     faround: !!faround,
     fbetween: !!fbetween,
+    linedeleted: !!deleted,
   };
 
   const classLine = cx(cfgClass, 'table-div-line', cfgClassLine, className);
@@ -39,6 +41,7 @@ DivLine.propTypes = {
   fcenter: PropTypes.bool,
   faround: PropTypes.bool,
   fbetween: PropTypes.bool,
+  deleted: PropTypes.bool,
 };
 DivLine.defaultProps = {
   children: null,
@@ -48,4 +51,5 @@ DivLine.defaultProps = {
   fcenter: false,
   faround: false,
   fbetween: false,
+  deleted: false,
 };

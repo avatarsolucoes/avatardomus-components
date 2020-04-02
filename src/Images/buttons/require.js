@@ -8,9 +8,25 @@ const reldown = require('./assets/btn-reldown.svg');
 const relup = require('./assets/btn-relup.svg');
 const save = require('./assets/btn-save.svg');
 const update = require('./assets/btn-update.svg');
+const reset = require('./assets/btn-reset.svg');
+const status = require('./assets/btn-status.svg');
+const bellreport = require('./assets/btn-bellreport.svg');
+const clickaction = require('./assets/btn-clickaction.svg');
+const agenda = require('./assets/btn-agenda.svg');
+const listitems = require('./assets/btn-listitems.svg');
+const personsend = require('./assets/btn-personsend.svg');
+const exclude = require('./assets/btn-exclude.svg');
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  exclude,
+  personsend,
+  listitems,
+  agenda,
+  clickaction,
+  bellreport,
+  status,
+  reset,
   add,
   back,
   del,

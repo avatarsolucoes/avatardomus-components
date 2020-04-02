@@ -1,4 +1,5 @@
 const ask = require('./assets/msg-ask.svg');
+const askcaution = require('./assets/msg-askcaution.svg');
 const blocked = require('./assets/msg-blocked.svg');
 const building = require('./assets/msg-building.svg');
 const click = require('./assets/msg-click.svg');
@@ -14,6 +15,7 @@ const unknow = require('./assets/msg-unknow.svg');
 
 const listImagesAsSvg = {
   ask,
+  askcaution,
   blocked,
   building,
   click,

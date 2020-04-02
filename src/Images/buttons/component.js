@@ -8,9 +8,25 @@ import { ReactComponent as Reldown } from './assets/btn-reldown.svg';
 import { ReactComponent as Relup } from './assets/btn-relup.svg';
 import { ReactComponent as Save } from './assets/btn-save.svg';
 import { ReactComponent as Update } from './assets/btn-update.svg';
+import { ReactComponent as Reset } from './assets/btn-reset.svg';
+import { ReactComponent as Status } from './assets/btn-status.svg';
+import { ReactComponent as Bellreport } from './assets/btn-bellreport.svg';
+import { ReactComponent as Clickaction } from './assets/btn-clickaction.svg';
+import { ReactComponent as Agenda } from './assets/btn-agenda.svg';
+import { ReactComponent as Listitems } from './assets/btn-listitems.svg';
+import { ReactComponent as Personsend } from './assets/btn-personsend.svg';
+import { ReactComponent as Exclude } from './assets/btn-exclude.svg';
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Exclude,
+  Personsend,
+  Listitems,
+  Agenda,
+  Clickaction,
+  Bellreport,
+  Status,
+  Reset,
   Add,
   Back,
   Del,
