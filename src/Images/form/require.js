@@ -13,12 +13,16 @@ const barcode = require('./assets/lb-bar.svg');
 const timeout = require('./assets/lb-timeout.svg');
 const version = require('./assets/lb-version.svg');
 const exclude = require('./assets/lb-exclude.svg');
+const link = require('./assets/lb-link.svg');
+const copy = require('./assets/lb-copy.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
   inputChecked,
   inputUnchecked,
+  link,
+  copy,
   exclude,
   timeout,
   version,

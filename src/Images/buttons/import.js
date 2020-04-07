@@ -16,9 +16,11 @@ import agenda from './assets/btn-agenda.svg';
 import listitems from './assets/btn-listitems.svg';
 import personsend from './assets/btn-personsend.svg';
 import exclude from './assets/btn-exclude.svg';
+import locked from './assets/btn-locked.svg';
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  locked,
   exclude,
   personsend,
   listitems,

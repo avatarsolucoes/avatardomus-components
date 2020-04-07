@@ -16,9 +16,11 @@ const agenda = require('./assets/btn-agenda.svg');
 const listitems = require('./assets/btn-listitems.svg');
 const personsend = require('./assets/btn-personsend.svg');
 const exclude = require('./assets/btn-exclude.svg');
+const locked = require('./assets/btn-locked.svg');
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  locked,
   exclude,
   personsend,
   listitems,

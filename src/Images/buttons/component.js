@@ -16,9 +16,11 @@ import { ReactComponent as Agenda } from './assets/btn-agenda.svg';
 import { ReactComponent as Listitems } from './assets/btn-listitems.svg';
 import { ReactComponent as Personsend } from './assets/btn-personsend.svg';
 import { ReactComponent as Exclude } from './assets/btn-exclude.svg';
+import { ReactComponent as Locked } from './assets/btn-locked.svg';
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Locked,
   Exclude,
   Personsend,
   Listitems,

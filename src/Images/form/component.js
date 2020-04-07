@@ -13,9 +13,13 @@ import { ReactComponent as Barcode } from './assets/lb-bar.svg';
 import { ReactComponent as Timeout } from './assets/lb-timeout.svg';
 import { ReactComponent as Version } from './assets/lb-version.svg';
 import { ReactComponent as Exclude } from './assets/lb-exclude.svg';
+import { ReactComponent as Link } from './assets/lb-link.svg';
+import { ReactComponent as Copy } from './assets/lb-copy.svg';
 import { ReactComponent as Unknow } from './assets/unknow.svg';
 
 export const listImagesAsComponent = {
+  Copy,
+  Link,
   InputChecked,
   InputUnchecked,
   Exclude,
