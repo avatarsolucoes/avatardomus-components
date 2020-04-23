@@ -38,6 +38,37 @@ Array [
       className="image-message"
     >
       <svg>
+        msg-askcaution.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-askcaution.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-askcaution.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
         msg-blocked.svg
       </svg>
     </div>,

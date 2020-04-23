@@ -3,6 +3,15 @@
 exports[`Images Test images BUTTONS 1`] = `
 Object {
   "component": Array [
+    "<svg>btn-locked.svg</svg>",
+    "<svg>btn-exclude.svg</svg>",
+    "<svg>btn-personsend.svg</svg>",
+    "<svg>btn-listitems.svg</svg>",
+    "<svg>btn-agenda.svg</svg>",
+    "<svg>btn-clickaction.svg</svg>",
+    "<svg>btn-bellreport.svg</svg>",
+    "<svg>btn-status.svg</svg>",
+    "<svg>btn-reset.svg</svg>",
     "<svg>btn-add.svg</svg>",
     "<svg>btn-back.svg</svg>",
     "<svg>btn-del.svg</svg>",
@@ -16,6 +25,15 @@ Object {
     "<svg>btn-unknow.svg</svg>",
   ],
   "importing": Array [
+    "btn-locked.svg",
+    "btn-exclude.svg",
+    "btn-personsend.svg",
+    "btn-listitems.svg",
+    "btn-agenda.svg",
+    "btn-clickaction.svg",
+    "btn-bellreport.svg",
+    "btn-status.svg",
+    "btn-reset.svg",
     "btn-add.svg",
     "btn-back.svg",
     "btn-del.svg",
@@ -40,6 +58,78 @@ Object {
     },
   },
   "require": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-locked.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-exclude.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-personsend.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-listitems.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-agenda.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-clickaction.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-bellreport.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-status.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-reset.svg",
+    },
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -135,6 +225,8 @@ Object {
 exports[`Images Test images FORM 1`] = `
 Object {
   "component": Array [
+    "<svg>lb-copy.svg</svg>",
+    "<svg>lb-link.svg</svg>",
     "<svg>input-checked.svg</svg>",
     "<svg>input-unchecked.svg</svg>",
     "<svg>lb-exclude.svg</svg>",
@@ -155,6 +247,8 @@ Object {
   "importing": Array [
     "input-checked.svg",
     "input-unchecked.svg",
+    "lb-copy.svg",
+    "lb-link.svg",
     "lb-exclude.svg",
     "lb-timeout.svg",
     "lb-version.svg",
@@ -197,6 +291,22 @@ Object {
       },
       "__esModule": true,
       "default": "input-unchecked.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-link.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-copy.svg",
     },
     Object {
       "ReactComponent": Object {
@@ -390,6 +500,7 @@ exports[`Images Test images MESSAGE 1`] = `
 Object {
   "component": Array [
     "<svg>msg-ask.svg</svg>",
+    "<svg>msg-askcaution.svg</svg>",
     "<svg>msg-blocked.svg</svg>",
     "<svg>msg-building.svg</svg>",
     "<svg>msg-click.svg</svg>",
@@ -405,6 +516,7 @@ Object {
   ],
   "importing": Array [
     "msg-ask.svg",
+    "msg-askcaution.svg",
     "msg-blocked.svg",
     "msg-building.svg",
     "msg-click.svg",
@@ -437,6 +549,14 @@ Object {
       },
       "__esModule": true,
       "default": "msg-ask.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "msg-askcaution.svg",
     },
     Object {
       "ReactComponent": Object {
