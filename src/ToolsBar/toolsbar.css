@@ -137,6 +137,12 @@
   /* background-color: rosybrown;*/
 }
 
+.toolsbar .toolsbarBtn.actived,
+.toolsbar .toolsbarBtn.actived,
+.toolsbar .toolsbarBtn.actived {
+  background-color: #0D7ECC;
+}
+
 .toolsbar .toolsbarButtons .toolsbarBtn:disabled,
 .toolsbar .toolsbarButtons .toolsbarBtn.disabled,
 .toolsbar .toolsbarButtons .toolsbarBtn.disabled:hover {

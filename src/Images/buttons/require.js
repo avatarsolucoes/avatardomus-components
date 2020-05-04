@@ -17,9 +17,22 @@ const listitems = require('./assets/btn-listitems.svg');
 const personsend = require('./assets/btn-personsend.svg');
 const exclude = require('./assets/btn-exclude.svg');
 const locked = require('./assets/btn-locked.svg');
+const fileCSV = require('./assets/btn-csv.svg');
+const search = require('./assets/btn-search.svg');
+const fileSearch = require('./assets/btn-fileSearch.svg');
+const settings = require('./assets/btn-settings.svg');
+const filter = require('./assets/btn-filter.svg');
+const print = require('./assets/btn-print.svg');
+
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  print,
+  filter,
+  settings,
+  fileSearch,
+  search,
+  fileCSV,
   locked,
   exclude,
   personsend,
