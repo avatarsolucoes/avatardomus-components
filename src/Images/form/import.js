@@ -15,11 +15,13 @@ import version from './assets/lb-version.svg';
 import exclude from './assets/lb-exclude.svg';
 import copy from './assets/lb-copy.svg';
 import link from './assets/lb-link.svg';
+import search from './assets/lb-search.svg';
 import unknow from './assets/unknow.svg';
 
 export const listImagesImport = {
   inputChecked,
   inputUnchecked,
+  search,
   copy,
   link,
   exclude,
