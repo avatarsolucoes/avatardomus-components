@@ -5,7 +5,7 @@
 
 > Components Avatar Domus
 
-[![NPM](https://img.shields.io/npm/v/avatardomus-components.svg)](https://www.npmjs.com/package/avatardomus-components) [![Coverage Status](https://coveralls.io/repos/github/avatarsolucoes/avatardomus-components/badge.svg?branch=master)](https://coveralls.io/github/avatarsolucoes/avatardomus-components?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![NPM](https://img.shields.io/npm/v/avatardomus-components.svg)](https://www.npmjs.com/package/avatardomus-components) [![Coverage Status](https://coveralls.io/repos/github/avatarsolucoes/avatardomus-components/badge.svg?branch=master)](https://coveralls.io/github/avatarsolucoes/avatardomus-components?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![ci](https://github.com/avatarsolucoes/avatardomus-components/workflows/ci/badge.svg)
 
 ## Install
 
