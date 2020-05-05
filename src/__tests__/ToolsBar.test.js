@@ -51,6 +51,7 @@ describe('TableDiv', () => {
           <ItemTitle>Teste title</ItemTitle>
           <ItemButtons>
             <ToolButton icon="del" value={1} disabled />
+            <ToolButton icon="search" value={0} actived="#000" />
             <ToolButton icon="update" />
             <ToolLink icon="add" value="https://avatarsolucoesdigitais.com.br" />
             <ToolLink icon="add" value="https://avatarsolucoesdigitais.com.br" disabled />
