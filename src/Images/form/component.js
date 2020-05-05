@@ -15,9 +15,11 @@ import { ReactComponent as Version } from './assets/lb-version.svg';
 import { ReactComponent as Exclude } from './assets/lb-exclude.svg';
 import { ReactComponent as Link } from './assets/lb-link.svg';
 import { ReactComponent as Copy } from './assets/lb-copy.svg';
+import { ReactComponent as Search } from './assets/lb-search.svg';
 import { ReactComponent as Unknow } from './assets/unknow.svg';
 
 export const listImagesAsComponent = {
+  Search,
   Copy,
   Link,
   InputChecked,

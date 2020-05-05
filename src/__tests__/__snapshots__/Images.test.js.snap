@@ -3,6 +3,12 @@
 exports[`Images Test images BUTTONS 1`] = `
 Object {
   "component": Array [
+    "<svg>btn-print.svg</svg>",
+    "<svg>btn-filter.svg</svg>",
+    "<svg>btn-settings.svg</svg>",
+    "<svg>btn-fileSearch.svg</svg>",
+    "<svg>btn-search.svg</svg>",
+    "<svg>btn-csv.svg</svg>",
     "<svg>btn-locked.svg</svg>",
     "<svg>btn-exclude.svg</svg>",
     "<svg>btn-personsend.svg</svg>",
@@ -25,6 +31,12 @@ Object {
     "<svg>btn-unknow.svg</svg>",
   ],
   "importing": Array [
+    "btn-print.svg",
+    "btn-filter.svg",
+    "btn-settings.svg",
+    "btn-fileSearch.svg",
+    "btn-search.svg",
+    "btn-csv.svg",
     "btn-locked.svg",
     "btn-exclude.svg",
     "btn-personsend.svg",
@@ -58,6 +70,54 @@ Object {
     },
   },
   "require": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-print.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-filter.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-settings.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-fileSearch.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-search.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-csv.svg",
+    },
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -225,6 +285,7 @@ Object {
 exports[`Images Test images FORM 1`] = `
 Object {
   "component": Array [
+    "<svg>lb-search.svg</svg>",
     "<svg>lb-copy.svg</svg>",
     "<svg>lb-link.svg</svg>",
     "<svg>input-checked.svg</svg>",
@@ -247,6 +308,7 @@ Object {
   "importing": Array [
     "input-checked.svg",
     "input-unchecked.svg",
+    "lb-search.svg",
     "lb-copy.svg",
     "lb-link.svg",
     "lb-exclude.svg",
@@ -291,6 +353,14 @@ Object {
       },
       "__esModule": true,
       "default": "input-unchecked.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-search.svg",
     },
     Object {
       "ReactComponent": Object {

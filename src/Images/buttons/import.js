@@ -17,9 +17,22 @@ import listitems from './assets/btn-listitems.svg';
 import personsend from './assets/btn-personsend.svg';
 import exclude from './assets/btn-exclude.svg';
 import locked from './assets/btn-locked.svg';
+import fileCSV from './assets/btn-csv.svg';
+import search from './assets/btn-search.svg';
+import fileSearch from './assets/btn-fileSearch.svg';
+import settings from './assets/btn-settings.svg';
+import filter from './assets/btn-filter.svg';
+import print from './assets/btn-print.svg';
+
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  print,
+  filter,
+  settings,
+  fileSearch,
+  search,
+  fileCSV,
   locked,
   exclude,
   personsend,

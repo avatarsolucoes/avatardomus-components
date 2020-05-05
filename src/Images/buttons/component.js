@@ -17,9 +17,22 @@ import { ReactComponent as Listitems } from './assets/btn-listitems.svg';
 import { ReactComponent as Personsend } from './assets/btn-personsend.svg';
 import { ReactComponent as Exclude } from './assets/btn-exclude.svg';
 import { ReactComponent as Locked } from './assets/btn-locked.svg';
+import { ReactComponent as FileCSV } from './assets/btn-csv.svg';
+import { ReactComponent as Search } from './assets/btn-search.svg';
+import { ReactComponent as FileSearch } from './assets/btn-fileSearch.svg';
+import { ReactComponent as Settings } from './assets/btn-settings.svg';
+import { ReactComponent as Filter } from './assets/btn-filter.svg';
+import { ReactComponent as Print } from './assets/btn-print.svg';
+
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Print,
+  Filter,
+  Settings,
+  FileSearch,
+  Search,
+  FileCSV,
   Locked,
   Exclude,
   Personsend,
