@@ -23,10 +23,12 @@ const fileSearch = require('./assets/btn-fileSearch.svg');
 const settings = require('./assets/btn-settings.svg');
 const filter = require('./assets/btn-filter.svg');
 const print = require('./assets/btn-print.svg');
+const cancel = require('./assets/btn-cancel.svg');
 
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  cancel,
   print,
   filter,
   settings,

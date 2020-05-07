@@ -23,10 +23,12 @@ import { ReactComponent as FileSearch } from './assets/btn-fileSearch.svg';
 import { ReactComponent as Settings } from './assets/btn-settings.svg';
 import { ReactComponent as Filter } from './assets/btn-filter.svg';
 import { ReactComponent as Print } from './assets/btn-print.svg';
+import { ReactComponent as Cancel } from './assets/btn-cancel.svg';
 
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Cancel,
   Print,
   Filter,
   Settings,

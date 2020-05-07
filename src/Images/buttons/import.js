@@ -23,10 +23,12 @@ import fileSearch from './assets/btn-fileSearch.svg';
 import settings from './assets/btn-settings.svg';
 import filter from './assets/btn-filter.svg';
 import print from './assets/btn-print.svg';
+import cancel from './assets/btn-cancel.svg';
 
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  cancel,
   print,
   filter,
   settings,
