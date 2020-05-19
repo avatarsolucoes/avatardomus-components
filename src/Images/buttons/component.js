@@ -24,10 +24,18 @@ import { ReactComponent as Settings } from './assets/btn-settings.svg';
 import { ReactComponent as Filter } from './assets/btn-filter.svg';
 import { ReactComponent as Print } from './assets/btn-print.svg';
 import { ReactComponent as Cancel } from './assets/btn-cancel.svg';
+import { ReactComponent as Disconn } from './assets/btn-disconn.svg';
+import { ReactComponent as Updatemodule } from './assets/btn-updatemodule.svg';
+import { ReactComponent as Updatecalendar } from './assets/btn-updatecalendar.svg';
+import { ReactComponent as Downmodule } from './assets/btn-downmodule.svg';
 
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Downmodule,
+  Updatecalendar,
+  Updatemodule,
+  Disconn,
   Cancel,
   Print,
   Filter,

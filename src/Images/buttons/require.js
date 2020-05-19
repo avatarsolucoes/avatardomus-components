@@ -24,10 +24,18 @@ const settings = require('./assets/btn-settings.svg');
 const filter = require('./assets/btn-filter.svg');
 const print = require('./assets/btn-print.svg');
 const cancel = require('./assets/btn-cancel.svg');
+const disconn = require('./assets/btn-disconn.svg');
+const updatemodule = require('./assets/btn-updatemodule.svg');
+const updatecalendar = require('./assets/btn-updatecalendar.svg');
+const downmodule = require('./assets/btn-downmodule.svg');
 
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  downmodule,
+  updatecalendar,
+  updatemodule,
+  disconn,
   cancel,
   print,
   filter,

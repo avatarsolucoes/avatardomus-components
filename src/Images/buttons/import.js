@@ -24,10 +24,18 @@ import settings from './assets/btn-settings.svg';
 import filter from './assets/btn-filter.svg';
 import print from './assets/btn-print.svg';
 import cancel from './assets/btn-cancel.svg';
+import disconn from './assets/btn-disconn.svg';
+import updatemodule from './assets/btn-updatemodule.svg';
+import updatecalendar from './assets/btn-updatecalendar.svg';
+import downmodule from './assets/btn-downmodule.svg';
 
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  downmodule,
+  updatecalendar,
+  updatemodule,
+  disconn,
   cancel,
   print,
   filter,
