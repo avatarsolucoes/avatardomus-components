@@ -28,10 +28,14 @@ const disconn = require('./assets/btn-disconn.svg');
 const updatemodule = require('./assets/btn-updatemodule.svg');
 const updatecalendar = require('./assets/btn-updatecalendar.svg');
 const downmodule = require('./assets/btn-downmodule.svg');
+const screenfull = require('./assets/btn-screenfull.svg');
+const screen = require('./assets/btn-screen.svg');
 
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  screen,
+  screenfull,
   downmodule,
   updatecalendar,
   updatemodule,

@@ -3,6 +3,13 @@
 exports[`Images Test images BUTTONS 1`] = `
 Object {
   "component": Array [
+    "<svg>btn-screen.svg</svg>",
+    "<svg>btn-screenfull.svg</svg>",
+    "<svg>btn-downmodule.svg</svg>",
+    "<svg>btn-updatecalendar.svg</svg>",
+    "<svg>btn-updatemodule.svg</svg>",
+    "<svg>btn-disconn.svg</svg>",
+    "<svg>btn-cancel.svg</svg>",
     "<svg>btn-print.svg</svg>",
     "<svg>btn-filter.svg</svg>",
     "<svg>btn-settings.svg</svg>",
@@ -31,6 +38,13 @@ Object {
     "<svg>btn-unknow.svg</svg>",
   ],
   "importing": Array [
+    "btn-screen.svg",
+    "btn-screenfull.svg",
+    "btn-downmodule.svg",
+    "btn-updatecalendar.svg",
+    "btn-updatemodule.svg",
+    "btn-disconn.svg",
+    "btn-cancel.svg",
     "btn-print.svg",
     "btn-filter.svg",
     "btn-settings.svg",
@@ -70,6 +84,62 @@ Object {
     },
   },
   "require": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-screen.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-screenfull.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-downmodule.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-updatecalendar.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-updatemodule.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-disconn.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "btn-cancel.svg",
+    },
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),

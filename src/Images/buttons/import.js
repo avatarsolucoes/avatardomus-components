@@ -28,10 +28,14 @@ import disconn from './assets/btn-disconn.svg';
 import updatemodule from './assets/btn-updatemodule.svg';
 import updatecalendar from './assets/btn-updatecalendar.svg';
 import downmodule from './assets/btn-downmodule.svg';
+import screenfull from './assets/btn-screenfull.svg';
+import screen from './assets/btn-screen.svg';
 
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  screen,
+  screenfull,
   downmodule,
   updatecalendar,
   updatemodule,
