@@ -3,15 +3,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import { Form } from '@rocketseat/unform';
-
-// import useTheme from '../DomusThemeProvider/useTheme';
+import css from './form-domus.css';
 
 export default function FormContent(props) {
-  // const { theme } = useTheme();
-  const { children, className, initialData, onSubmit, ...rest } = props;
-
+  const { children, className, initialData, width, onSubmit, ...rest } = props;
+  const styleCss = { [css.formDomus]: true };
   return (
-    <div className={cx('formDomus', className)}>
+    <div className={cx(styleCss, className)} style={{ width }}>
       <Form initialData={initialData} onSubmit={onSubmit} {...rest}>
         {children}
       </Form>
@@ -24,6 +22,7 @@ FormContent.propTypes = {
   className: PropTypes.string,
   initialData: PropTypes.object,
   onSubmit: PropTypes.func,
+  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
 
 FormContent.defaultProps = {
@@ -31,4 +30,5 @@ FormContent.defaultProps = {
   className: null,
   initialData: {},
   onSubmit: () => {},
+  width: '100%',
 };

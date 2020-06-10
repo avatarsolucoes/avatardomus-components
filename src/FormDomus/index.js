@@ -2,8 +2,8 @@
 
 // export { default as CustomContext } from './CustomContext';
 export { default as FormContent } from './FormContent';
-// export { default as Grupo } from './Grupo';
-// export { default as Campo } from './Campo';
+export { default as Grupo } from './Grupo';
+export { default as Campo } from './Campo';
 // export { default as CampoCopy } from './CampoCopy';
 // export { default as LinkCampo } from './LinkCampo';
 export { default as ButtonCampo } from './ButtonCampo';

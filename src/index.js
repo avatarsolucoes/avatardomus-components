@@ -11,7 +11,7 @@ export { TableDiv, DivCell, DivLine, SupLabel } from './TableDiv';
 export { ToolsBar, ItemTitle, ToolItem, ItemButtons, ToolButton, ToolLink, ToolSelectItem } from './ToolsBar';
 export { Tabs, Tab } from './Tabs';
 
-export { FormContent, ButtonCampo } from './FormDomus';
+export { FormContent, Grupo, Campo, ButtonCampo } from './FormDomus';
 
 // export {
 //   FormContent,

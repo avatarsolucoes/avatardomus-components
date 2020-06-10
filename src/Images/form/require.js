@@ -16,10 +16,19 @@ const exclude = require('./assets/lb-exclude.svg');
 const link = require('./assets/lb-link.svg');
 const copy = require('./assets/lb-copy.svg');
 const search = require('./assets/lb-search.svg');
+const cpf = require('./assets/lb-cpf.svg');
+const whatsapp = require('./assets/lb-zap.svg');
+const nasc = require('./assets/lb-nasc.svg');
+const back = require('./assets/lb-back.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
+  back,
+  birday: nasc,
+  nasc,
+  whatsapp,
+  cpf,
   inputChecked,
   inputUnchecked,
   search,

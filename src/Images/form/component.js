@@ -16,9 +16,18 @@ import { ReactComponent as Exclude } from './assets/lb-exclude.svg';
 import { ReactComponent as Link } from './assets/lb-link.svg';
 import { ReactComponent as Copy } from './assets/lb-copy.svg';
 import { ReactComponent as Search } from './assets/lb-search.svg';
+import { ReactComponent as Cpf } from './assets/lb-cpf.svg';
+import { ReactComponent as Whatsapp } from './assets/lb-zap.svg';
+import { ReactComponent as Nasc } from './assets/lb-nasc.svg';
+import { ReactComponent as Back } from './assets/lb-back.svg';
 import { ReactComponent as Unknow } from './assets/unknow.svg';
 
 export const listImagesAsComponent = {
+  Back,
+  Nasc,
+  Birday: Nasc,
+  Whatsapp,
+  Cpf,
   Search,
   Copy,
   Link,

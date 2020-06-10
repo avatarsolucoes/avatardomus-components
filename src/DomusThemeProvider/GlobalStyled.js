@@ -13,6 +13,7 @@ const Global = createGlobalStyle`
 	  0% { opacity:0; overflow: hidden; }
 	  100% { opacity:1; overflow: hidden; }
   }
+  *:focus { outline: 0; }
 
   body {
     background-color: ${({ theme }) => theme.bgprimary.background};
@@ -41,6 +42,8 @@ const Global = createGlobalStyle`
     font-size: 16px;
     padding: 0 0 6px 0;
     margin: 0 auto;
+    block-size: border-box;
+    max-width: 100%;
   }
   p + h1, p + h2, p + h3, p + h4 { padding-top: 6px; }
   ul, ol {
@@ -56,9 +59,12 @@ const Global = createGlobalStyle`
   }
 
   .footer {
+    max-width: 100%;
     max-height: 44px;
     display: flex;
     padding: 3px;
+    border: 0;
+    block-size: border-box;
     img {
       display: block;
       margin: 0 auto;
@@ -69,21 +75,23 @@ const Global = createGlobalStyle`
     height: 100vh;
     margin: 0 auto;
     position: relative;
+    max-width: 100%;
+    block-size: border-box;
+  }
+
+  #layout, #header, .header-content{
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    block-size: border-box;
   }
 
   #layout {
     height: 100%;
-    transition: all 0.2s linear;
-    animation: fadeinMain 0.3s linear;
   }
 
-  #header, .header-content {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    border: 0;
-  }
   #header{
     padding: 8px 4px 26px 4px;
     background-repeat: repeat-x;
@@ -100,6 +108,7 @@ const Global = createGlobalStyle`
     align-items: center;
     align-content: center;
   }
+
   .header-content.between {
     justify-content: space-between;
     align-items: center;
@@ -107,8 +116,17 @@ const Global = createGlobalStyle`
 
   .logo{
     display: block;
-    margin:0 auto;
-    max-height:44px;
+    margin: 0 auto;
+    max-height: 44px;
+  }
+
+  .DomusContent{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 100% !important;
+    display: block;
   }
 
   .primary {
@@ -135,8 +153,12 @@ const Global = createGlobalStyle`
 
   .bgcontrast {
     color: ${({ theme }) => theme.bgcontrast.color};
-    background: ${({ theme }) => theme.bgcontrast.background};
+    background-color: ${({ theme }) => theme.bgcontrast.background};
   };
+
+  .hover:hover {
+    background-color: ${({ theme }) => theme.bgsecundary.background};
+  }
 
   @media screen and (min-width: 721px) {
 	  h1, h2 { font-size: 26px; }

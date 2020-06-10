@@ -1,0 +1,237 @@
+
+.formDomus,
+.formDomus form,
+.formDomus fieldset,
+.formDomus .campo {
+  position: relative;
+  display: block;
+  max-width: 100% !important;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.formDomus{
+  /* border: 1px dashed #ffffff !important; */
+}
+
+.formDomus form {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.formDomus form hr {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 1px;
+  border: 0;
+  padding: 0;
+  margin: 4px 0 8px 0;
+}
+
+/* GRUPO */
+.grupo {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+}
+
+.grupo.between {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+
+.grupo .w50 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.grupo .w70 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.grupo .w100 {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.fixed {
+  flex-flow: row nowrap;
+}
+
+.grupo.fixed .w50 {
+  width: 50% !important;
+  max-width: 50% !important;
+}
+.grupo.fixed .w50:first-child {
+  padding: 0px 3px 8px 0px;
+  border: 0;
+}
+.grupo.fixed .w50:last-child {
+  padding: 0px 0px 8px 3px;
+  border: 0;
+}
+
+/* CAMPO */
+.campo {
+  padding: 0px 0px 8px 0px;
+  border: 0;
+}
+
+.campo.lbicon,
+.campo.search {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+}
+
+.lbicon label[data-lbicon],
+.campo button[data-lbicon] {
+  order: 0;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  margin-right: 8px;
+  display: block;
+  width: 44px !important;
+  min-width: 44px;
+  height: 44px !important;
+  min-height: 44px;
+  cursor: pointer;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.2s ease;
+}
+
+.lbicon input,
+.lbicon select {
+  order: 1;
+  /*width: 100%;*/
+  display: block;
+  flex-grow: 1;
+  max-width: 100%;
+  border: #FFF 1px solid;
+  background-color: #FFF;
+  border-radius: 0;
+  font-size: 16px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.campo .button {
+  margin: 0 auto;
+  /* display: inline-block;*/
+  height: 44px;
+  min-height: 44px;
+  max-height: 44px;
+  max-width: 100%;
+  font-size: 14px;
+  padding: 0;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  line-height: 42px;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.2s ease;
+}
+
+.btnDefault,
+.btnText,
+.btnSubmit{
+  width: 100%;
+  display: block;
+}
+
+.btnText.btnIcon {
+  background-position: left center;
+}
+
+.btnText.btnIconR {
+  background-position: right center;
+}
+
+
+.btnText{
+  background: transparent;
+  color: #FFF;
+  border: 2px solid #fff !important;
+}
+
+.btnText:disabled, .btnText.disabled {
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+}
+
+
+.grupo.fixed .w100 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.grupo.fixed .w70 {
+  width: 70% !important;
+  max-width: 70% !important;
+}
+.grupo.fixed .w50 {
+  width: 50% !important;
+  max-width: 50% !important;
+}
+
+.lbicon input:read-only,
+.lbicon input[read-only] {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.campo.disabled,
+.formDomus input:disabled,
+.formDomus button:disabled,
+.lbicon input[disabled] {
+  filter: grayscale(100%);
+  cursor: default;
+}
+
+/* CORRECAO PARA DESKTOP */
+@media screen and (min-width: 721px) {
+
+  .grupo .w50 {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .grupo .w30 {
+    width: 33.333%;
+    max-width: 33.333%;
+  }
+
+  .grupo .w70 {
+    width: 70%;
+    max-width: 70%;
+  }
+
+  .grupo .w70:first-child,
+  .grupo .w50:first-child,
+  .grupo .w30:first-child {
+    padding-right: 4px;
+  }
+
+  .grupo .w70:last-child,
+  .grupo .w50:last-child,
+  .grupo .w30:last-child {
+    padding-left: 4px;
+  }
+}

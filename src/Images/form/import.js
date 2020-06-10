@@ -16,9 +16,19 @@ import exclude from './assets/lb-exclude.svg';
 import copy from './assets/lb-copy.svg';
 import link from './assets/lb-link.svg';
 import search from './assets/lb-search.svg';
+import cpf from './assets/lb-cpf.svg';
+import whatsapp from './assets/lb-zap.svg';
+import nasc from './assets/lb-nasc.svg';
+import back from './assets/lb-back.svg';
+
 import unknow from './assets/unknow.svg';
 
 export const listImagesImport = {
+  back,
+  birday: nasc,
+  nasc,
+  whatsapp,
+  cpf,
   inputChecked,
   inputUnchecked,
   search,
