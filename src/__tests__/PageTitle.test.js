@@ -23,4 +23,25 @@ describe('PageTitle', () => {
     expect(wrapper.exists('h1')).toBe(true);
     expect(wrapper.html()).toMatchSnapshot();
   });
+
+  it('Test renderer whith h1', () => {
+    const wrapper = shallow(<PageTitle h1="TESTE1" />);
+    expect(wrapper.exists('h1')).toBe(true);
+  });
+  it('Test renderer whith h2', () => {
+    const wrapper = shallow(<PageTitle h2="TESTE2" />);
+    expect(wrapper.exists('h2')).toBe(true);
+  });
+  it('Test renderer whith h3', () => {
+    const wrapper = shallow(<PageTitle h3="TESTE3" />);
+    expect(wrapper.exists('h3')).toBe(true);
+  });
+  it('Test renderer whith h4', () => {
+    const wrapper = shallow(<PageTitle h4="TESTE4" />);
+    expect(wrapper.exists('h4')).toBe(true);
+  });
+  it('Test renderer whith blank', () => {
+    const wrapper = shallow(<PageTitle />);
+    expect(wrapper.html()).toMatchSnapshot();
+  });
 });

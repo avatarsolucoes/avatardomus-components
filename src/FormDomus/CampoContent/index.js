@@ -44,13 +44,13 @@ export default function CampoContent(props) {
 CampoContent.propTypes = {
   children: PropTypes.any,
   className: PropTypes.string,
-  wchild: PropTypes.oneOf(['w50', 'w70', 'w100']),
+  wchild: PropTypes.oneOf(['', 'w50', 'w70', 'w100']),
   disabled: PropTypes.bool,
 };
 
 CampoContent.defaultProps = {
   children: null,
   className: null,
-  wchild: null,
+  wchild: '',
   disabled: false,
 };

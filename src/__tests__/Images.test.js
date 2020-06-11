@@ -2,7 +2,7 @@ import React from 'react';
 // import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
-import { getKeyImage, imgForm, imgIcon, imgMessage, imgButton } from '../Images';
+import { getKeyImage, imgForm, imgIcon, imgMessage, imgButton, imgLayout } from '../Images';
 
 describe('Images', () => {
   it(`is truthy Images`, () => {
@@ -10,23 +10,8 @@ describe('Images', () => {
     expect(imgIcon).toBeTruthy();
     expect(imgMessage).toBeTruthy();
     expect(imgButton).toBeTruthy();
+    expect(imgLayout).toBeTruthy();
   });
-
-  // it(`Test unknow images`, () => {
-  //   const plain = {
-  //     form: imgForm.getImageByType(null, true),
-  //     icon: imgIcon.getImageByType(null, true),
-  //     message: imgMessage.getImageByType(null, true),
-  //     button: imgMessage.getImageByType(null, true),
-  //   };
-  //   const comp = {
-  //     form: imgForm.getImageByType(null, false),
-  //     icon: imgIcon.getImageByType(null, false),
-  //     message: imgMessage.getImageByType(null, false),
-  //     button: imgMessage.getImageByType(null, false),
-  //   };
-  //   expect({ plain, comp }).toMatchSnapshot();
-  // });
 
   it(`Test images FORM`, () => {
     const Comp = imgForm.getImageByType(null, false);
@@ -102,5 +87,19 @@ describe('Images', () => {
       return shallow(<C />).html();
     });
     expect({ nulo, require, importing, component }).toMatchSnapshot();
+  });
+
+  it(`Test images LAYOUT`, () => {
+    const require = getKeyImage(imgLayout.requireList).map((key) => {
+      return [imgLayout.getImageByType(key), imgLayout.requireList[key]];
+    });
+    require.push([imgLayout.getImageByType(null), imgLayout.getImageByType('abcde')])
+
+    const importing = getKeyImage(imgLayout.importList).map((key) => {
+      return [imgLayout.getImageByType(key,true), imgLayout.importList[key]];
+    });
+    importing.push([imgLayout.getImageByType(null, true), imgLayout.getImageByType('abcde',true)])
+
+    expect({ require, importing }).toMatchSnapshot();
   });
 });

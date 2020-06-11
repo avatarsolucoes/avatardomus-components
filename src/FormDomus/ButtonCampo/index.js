@@ -62,7 +62,7 @@ export default function ButtonCampo(props) {
 ButtonCampo.propTypes = {
   children: PropTypes.any,
   wchild: PropTypes.string,
-  model: PropTypes.oneOf(['text', 'default', 'submit']),
+  model: PropTypes.oneOf([null, 'text', 'default', 'submit']),
   style: PropTypes.object,
   icon: PropTypes.string,
   iconR: PropTypes.string,

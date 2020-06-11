@@ -355,6 +355,11 @@ Object {
 exports[`Images Test images FORM 1`] = `
 Object {
   "component": Array [
+    "<svg>lb-back.svg</svg>",
+    "<svg>lb-nasc.svg</svg>",
+    "<svg>lb-nasc.svg</svg>",
+    "<svg>lb-zap.svg</svg>",
+    "<svg>lb-cpf.svg</svg>",
     "<svg>lb-search.svg</svg>",
     "<svg>lb-copy.svg</svg>",
     "<svg>lb-link.svg</svg>",
@@ -376,6 +381,11 @@ Object {
     "<svg>unknow.svg</svg>",
   ],
   "importing": Array [
+    "lb-back.svg",
+    "lb-nasc.svg",
+    "lb-nasc.svg",
+    "lb-zap.svg",
+    "lb-cpf.svg",
     "input-checked.svg",
     "input-unchecked.svg",
     "lb-search.svg",
@@ -408,6 +418,46 @@ Object {
     },
   },
   "require": Array [
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-back.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-nasc.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-nasc.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-zap.svg",
+    },
+    Object {
+      "ReactComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "__esModule": true,
+      "default": "lb-cpf.svg",
+    },
     Object {
       "ReactComponent": Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -632,6 +682,111 @@ Object {
       "__esModule": true,
       "default": "unknow.svg",
     },
+  ],
+}
+`;
+
+exports[`Images Test images LAYOUT 1`] = `
+Object {
+  "importing": Array [
+    Array [
+      "unknow.svg",
+      "unknow.svg",
+    ],
+    Array [
+      "domus.svg",
+      "domus.svg",
+    ],
+    Array [
+      "bg-header.png",
+      "bg-header.png",
+    ],
+    Array [
+      "avatar-foot.svg",
+      "avatar-foot.svg",
+    ],
+    Array [
+      "unknow.svg",
+      "unknow.svg",
+    ],
+  ],
+  "require": Array [
+    Array [
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "unknow.svg",
+      },
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "unknow.svg",
+      },
+    ],
+    Array [
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "domus.svg",
+      },
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "domus.svg",
+      },
+    ],
+    Array [
+      "bg-header.png",
+      "bg-header.png",
+    ],
+    Array [
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "avatar-foot.svg",
+      },
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "avatar-foot.svg",
+      },
+    ],
+    Array [
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "unknow.svg",
+      },
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "unknow.svg",
+      },
+    ],
   ],
 }
 `;
