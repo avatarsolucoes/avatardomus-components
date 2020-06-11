@@ -8,10 +8,18 @@ export { default as BoxCenter } from './BoxCenter';
 export { default as PageTitle } from './PageTitle';
 export { ListCards, CardContent, CardItem, CardTitle } from './ListCards';
 export { TableDiv, DivCell, DivLine, SupLabel } from './TableDiv';
-export { ToolsBar, ItemTitle, ToolItem, ItemButtons, ToolButton, ToolLink, ToolSelectItem } from './ToolsBar';
+export {
+  ToolsBar,
+  ItemTitle,
+  ToolItem,
+  ItemButtons,
+  ToolButton,
+  ToolLink,
+  ToolSelectItem,
+} from './ToolsBar';
 export { Tabs, Tab } from './Tabs';
 
-export { FormContent, Grupo, Campo, ButtonCampo } from './FormDomus';
+export { FormContent, Grupo, Campo, ButtonCampo, CampoMask } from './FormDomus';
 
 // export {
 //   FormContent,

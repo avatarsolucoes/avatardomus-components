@@ -2,27 +2,35 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow, mount } from 'enzyme';
 
-import { FormContent, Campo, Grupo,ButtonCampo } from '../FormDomus';
+import { FormContent, Campo, Grupo, ButtonCampo, CampoMask } from '../FormDomus';
 
-function Form(){
+function Form() {
   return (
-    <FormContent width={700} onSubmit={()=>{}} initialData={{}}>
+    <FormContent width={700} onSubmit={() => {}} initialData={{ nasc: '27/05/1983' }}>
       <Campo name="teste1" />
       <Grupo>
-        <ButtonCampo model="text" disabled>BTN 1</ButtonCampo>
+        <ButtonCampo model="text" disabled>
+          BTN 1
+        </ButtonCampo>
         <ButtonCampo model="submit">BTN 2</ButtonCampo>
       </Grupo>
       <Grupo>
         <ButtonCampo>BTN 3</ButtonCampo>
-        <ButtonCampo icon="back" model="text">BTN 4</ButtonCampo>
+        <ButtonCampo icon="back" model="text">
+          BTN 4
+        </ButtonCampo>
       </Grupo>
       <Grupo fixed>
-        <ButtonCampo wchild="w50" model="text">BTN 3</ButtonCampo>
-        <ButtonCampo wchild="w50" iconR="back" model="text">BTN 4</ButtonCampo>
+        <ButtonCampo wchild="w50" model="text">
+          BTN 3
+        </ButtonCampo>
+        <ButtonCampo wchild="w50" iconR="back" model="text">
+          BTN 4
+        </ButtonCampo>
       </Grupo>
-
+      <CampoMask name="nasc" mask="99/99/9999" lbicon="nasc" placeholder="data de nascimento" />
     </FormContent>
-  )
+  );
 }
 
 describe('test FormContent', () => {

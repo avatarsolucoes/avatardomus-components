@@ -8,7 +8,7 @@ export { default as Campo } from './Campo';
 // export { default as LinkCampo } from './LinkCampo';
 export { default as ButtonCampo } from './ButtonCampo';
 // export { default as CampoSelect } from './CampoSelect';
-// export { default as CampoMask } from './CampoMask';
+export { default as CampoMask } from './CampoMask';
 // export { default as UnFormCheckToogle } from './UnFormCheckToogle';
 // export { default as LineToogle } from './UnFormCheckToogle/LineToogle';
 // export { default as CheckToogle } from './CheckToogle';
