@@ -8,6 +8,7 @@ import css from './form-domus.css';
 export default function FormContent(props) {
   const { children, className, initialData, width, onSubmit, ...rest } = props;
   const styleCss = { [css.formDomus]: true };
+
   return (
     <div className={cx(styleCss, className)} style={{ width }}>
       <Form initialData={initialData} onSubmit={onSubmit} {...rest}>

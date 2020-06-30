@@ -19,7 +19,15 @@ export {
 } from './ToolsBar';
 export { Tabs, Tab } from './Tabs';
 
-export { FormContent, Grupo, Campo, ButtonCampo, CampoMask } from './FormDomus';
+export {
+  FormContent,
+  Grupo,
+  Campo,
+  ButtonCampo,
+  CampoMask,
+  CheckToogle,
+  LineToogle,
+} from './FormDomus';
 
 // export {
 //   FormContent,
