@@ -30,10 +30,12 @@ import { ReactComponent as Updatecalendar } from './assets/btn-updatecalendar.sv
 import { ReactComponent as Downmodule } from './assets/btn-downmodule.svg';
 import { ReactComponent as Screenfull } from './assets/btn-screenfull.svg';
 import { ReactComponent as Screen } from './assets/btn-screen.svg';
+import { ReactComponent as Doc } from './assets/btn-doc.svg';
 
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Doc,
   Screen,
   Screenfull,
   Downmodule,

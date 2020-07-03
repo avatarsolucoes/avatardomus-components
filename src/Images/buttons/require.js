@@ -30,10 +30,12 @@ const updatecalendar = require('./assets/btn-updatecalendar.svg');
 const downmodule = require('./assets/btn-downmodule.svg');
 const screenfull = require('./assets/btn-screenfull.svg');
 const screen = require('./assets/btn-screen.svg');
+const doc = require('./assets/btn-doc.svg');
 
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  doc,
   screen,
   screenfull,
   downmodule,

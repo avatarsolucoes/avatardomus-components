@@ -1,6 +1,6 @@
 export { DomusThemeProvider, useTheme, GlobalStyled, defaultTheme } from './DomusThemeProvider';
 export { default as globalTheme } from './GlobalStyle/globalTheme';
-export { imgMessage, imgIcon, imgForm, imgButton, imgLayout, getKeyImage } from './Images';
+export { imgMessage, imgIcon, imgForm, imgButton, imgLayout, imgDoc, getKeyImage } from './Images';
 export { ImageMessage } from './ImageMessage';
 export { CircleLoading, Carga } from './Loading';
 export { Nota, Text, TextOnOff, TextOff, TextOn, Span, PBloco } from './Texts';
@@ -27,6 +27,7 @@ export {
   CampoMask,
   CheckToogle,
   LineToogle,
+  CampoSelect,
 } from './FormDomus';
 
 // export {
