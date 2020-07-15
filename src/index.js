@@ -28,6 +28,7 @@ export {
   CheckToogle,
   LineToogle,
   CampoSelect,
+  CampoHidden,
 } from './FormDomus';
 
 // export {

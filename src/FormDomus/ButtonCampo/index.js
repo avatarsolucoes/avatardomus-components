@@ -31,7 +31,7 @@ const Btn = styled.button`
 
 export default function ButtonCampo(props) {
   const { theme } = useTheme();
-  const { children, wchild, model, icon, iconR, style, className, ...rest } = props;
+  const { children, wchild, model, icon, iconR, style, className, customTheme, ...rest } = props;
 
   const styleCss = {
     [css.button]: true,
@@ -52,7 +52,13 @@ export default function ButtonCampo(props) {
 
   return (
     <CampoContent wchild={wchild} disabled={!!rest.disabled}>
-      <Btn {...rest} className={classe} model={model} theme={theme} style={s}>
+      <Btn
+        {...rest}
+        className={classe}
+        model={model}
+        theme={{ ...theme, ...customTheme }}
+        style={s}
+      >
         {children}
       </Btn>
     </CampoContent>
@@ -67,6 +73,7 @@ ButtonCampo.propTypes = {
   icon: PropTypes.string,
   iconR: PropTypes.string,
   className: PropTypes.string,
+  customTheme: PropTypes.object,
 };
 
 ButtonCampo.defaultProps = {
@@ -77,4 +84,5 @@ ButtonCampo.defaultProps = {
   icon: null,
   iconR: null,
   className: null,
+  customTheme: {},
 };
