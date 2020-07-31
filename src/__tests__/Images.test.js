@@ -93,12 +93,12 @@ describe('Images', () => {
     const require = getKeyImage(imgLayout.requireList).map((key) => {
       return [imgLayout.getImageByType(key), imgLayout.requireList[key]];
     });
-    require.push([imgLayout.getImageByType(null), imgLayout.getImageByType('abcde')])
+    require.push([imgLayout.getImageByType(null), imgLayout.getImageByType('abcde')]);
 
     const importing = getKeyImage(imgLayout.importList).map((key) => {
-      return [imgLayout.getImageByType(key,true), imgLayout.importList[key]];
+      return [imgLayout.getImageByType(key, true), imgLayout.importList[key]];
     });
-    importing.push([imgLayout.getImageByType(null, true), imgLayout.getImageByType('abcde',true)])
+    importing.push([imgLayout.getImageByType(null, true), imgLayout.getImageByType('abcde', true)]);
 
     expect({ require, importing }).toMatchSnapshot();
   });

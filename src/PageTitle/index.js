@@ -10,7 +10,8 @@ export default function PageTitle(props) {
   const classe = cx(css.pageTitle, 'page-title', className);
   return (
     <div className={classe} {...rest}>
-      {children || (h1 ? <h1>{h1}</h1> : h2 ? <h2>{h2}</h2> : h3 ? <h3>{h3}</h3> : h4 ? <h4>{h4}</h4> : '')}
+      {children ||
+        (h1 ? <h1>{h1}</h1> : h2 ? <h2>{h2}</h2> : h3 ? <h3>{h3}</h3> : h4 ? <h4>{h4}</h4> : '')}
     </div>
   );
 }

@@ -25,7 +25,9 @@ describe('CircleLoading', () => {
   });
 
   it('Teste renderer whith text', () => {
-    const wrapper = renderer.create(<CircleLoading color="#F00" dutaion={0.7} text="teste" />).toJSON();
+    const wrapper = renderer
+      .create(<CircleLoading color="#F00" dutaion={0.7} text="teste" />)
+      .toJSON();
     expect(wrapper).toMatchSnapshot();
   });
 });

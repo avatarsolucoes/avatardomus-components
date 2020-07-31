@@ -314,6 +314,47 @@
   height: 100%;
 }
 
+/* DIV SELECT */
+.divSelect select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+  overflow: hidden;
+  text-indent: 0.01px;
+  text-overflow: '';
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 44px 88px;
+  width: 100%;
+  margin: 0;
+  padding-left: 0.6rem;
+  font-size: 1.6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 44px;
+  cursor: pointer;
+  border: 1px solid #FFF;
+}
+
+.divSelect select::-ms-expand {
+  display: none;
+}
+
+.divSelect select:disabled {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.divSelect select:focus {
+  /* border-color: rgba(13, 126, 204, 1);*/
+  background-position: bottom right;
+}
+
 /* CORRECAO PARA DESKTOP */
 @media screen and (min-width: 721px) {
 

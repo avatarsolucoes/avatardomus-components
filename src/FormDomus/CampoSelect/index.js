@@ -9,7 +9,7 @@ import css from '../form-domus.css';
 export default function CampoSelect(props) {
   const { name, campoClass, ...rest } = props;
 
-  const classe = cx({ [css.lbicon]: true }, campoClass);
+  const classe = cx({ [css.divSelect]: true, [css.lbicon]: true }, campoClass);
 
   return (
     <CampoContent className={classe} disabled={!!rest.disabled}>

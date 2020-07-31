@@ -1,5 +1,8 @@
 const inputChecked = require('./assets/input-checked.svg');
 const inputUnchecked = require('./assets/input-unchecked.svg');
+const selectSeta = require('./assets/select-seta.svg');
+const selectSetaBg = require('./assets/select-seta-bg.svg');
+
 const acha = require('./assets/lb-acha.svg');
 const add = require('./assets/lb-add.svg');
 const email = require('./assets/lb-email.svg');
@@ -29,6 +32,8 @@ export const listImagesRequire = {
   nasc,
   whatsapp,
   cpf,
+  selectSeta,
+  selectSetaBg,
   inputChecked,
   inputUnchecked,
   search,

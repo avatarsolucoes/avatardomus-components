@@ -1,5 +1,7 @@
 import { ReactComponent as InputChecked } from './assets/input-checked.svg';
 import { ReactComponent as InputUnchecked } from './assets/input-unchecked.svg';
+import { ReactComponent as SelectSeta } from './assets/select-seta.svg';
+import { ReactComponent as SelectSetaBg } from './assets/select-seta-bg.svg';
 import { ReactComponent as Acha } from './assets/lb-acha.svg';
 import { ReactComponent as Add } from './assets/lb-add.svg';
 import { ReactComponent as Email } from './assets/lb-email.svg';
@@ -31,6 +33,8 @@ export const listImagesAsComponent = {
   Search,
   Copy,
   Link,
+  SelectSeta,
+  SelectSetaBg,
   InputChecked,
   InputUnchecked,
   Exclude,

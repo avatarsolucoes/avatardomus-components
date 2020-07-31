@@ -1,5 +1,5 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+// import renderer from 'react-test-renderer';
 import { shallow, mount } from 'enzyme';
 
 import { FormContent, Campo, Grupo, ButtonCampo, CampoMask } from '../FormDomus';

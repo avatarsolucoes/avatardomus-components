@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 import { useField } from '@rocketseat/unform';
+import { imgForm } from '../../Images';
 
 function setSelectDisabled(el, disabled) {
   if (disabled) return el.setAttribute('disabled', !!disabled);
@@ -23,7 +24,7 @@ function setSelectDisabled(el, disabled) {
  */
 
 export default function Select(props) {
-  const { name, placeholder, defaultValue, options, ...rest } = props;
+  const { name, placeholder, defaultValue, options, style, ...rest } = props;
 
   const ref = useRef();
   const { fieldName, registerField, defaultValue: initialData, error } = useField(name);
@@ -72,6 +73,11 @@ export default function Select(props) {
     [fieldName, defaultValue, initialData],
   );
 
+  const styles = {
+    ...style,
+    backgroundImage: `url(${imgForm.requireList.selectSeta})`,
+  };
+
   return (
     <>
       <select
@@ -81,6 +87,7 @@ export default function Select(props) {
         defaultValue={initialData || defaultValue}
         aria-label={fieldName}
         ref={ref}
+        style={styles}
         {...rest}
       >
         {placeholder ? (
@@ -108,6 +115,7 @@ Select.propTypes = {
   defaultValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   options: PropTypes.arrayOf(PropTypes.object),
   onChange: PropTypes.func,
+  style: PropTypes.object,
 };
 
 Select.defaultProps = {
@@ -115,4 +123,5 @@ Select.defaultProps = {
   defaultValue: '',
   options: [],
   onChange: () => {},
+  style: {},
 };

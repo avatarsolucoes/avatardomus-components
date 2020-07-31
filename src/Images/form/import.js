@@ -1,5 +1,7 @@
 import inputChecked from './assets/input-checked.svg';
 import inputUnchecked from './assets/input-unchecked.svg';
+import selectSeta from './assets/select-seta.svg';
+import selectSetaBg from './assets/select-seta-bg.svg';
 import acha from './assets/lb-acha.svg';
 import add from './assets/lb-add.svg';
 import email from './assets/lb-email.svg';
@@ -29,6 +31,8 @@ export const listImagesImport = {
   nasc,
   whatsapp,
   cpf,
+  selectSeta,
+  selectSetaBg,
   inputChecked,
   inputUnchecked,
   search,

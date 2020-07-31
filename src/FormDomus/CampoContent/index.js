@@ -6,6 +6,10 @@ import css from '../form-domus.css';
 import useTheme from '../../DomusThemeProvider/useTheme';
 
 const DivCampoContent = styled.div`
+  select:focus {
+    border: 1px solid ${({ theme }) => theme.secundary};
+  }
+
   input:focus {
     border: 1px solid ${({ theme }) => theme.secundary};
   }
