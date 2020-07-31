@@ -2,7 +2,7 @@ import React from 'react';
 // import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
-import { getKeyImage, imgForm, imgIcon, imgMessage, imgButton, imgLayout } from '../Images';
+import { getKeyImage, imgForm, imgIcon, imgMessage, imgButton, imgLayout, imgDoc } from '../Images';
 
 describe('Images', () => {
   it(`is truthy Images`, () => {
@@ -11,6 +11,7 @@ describe('Images', () => {
     expect(imgMessage).toBeTruthy();
     expect(imgButton).toBeTruthy();
     expect(imgLayout).toBeTruthy();
+    expect(imgDoc).toBeTruthy();
   });
 
   it(`Test images FORM`, () => {
@@ -99,6 +100,46 @@ describe('Images', () => {
       return [imgLayout.getImageByType(key, true), imgLayout.importList[key]];
     });
     importing.push([imgLayout.getImageByType(null, true), imgLayout.getImageByType('abcde', true)]);
+
+    expect({ require, importing }).toMatchSnapshot();
+  });
+
+  it(`Test images DOCS`, () => {
+    const require = getKeyImage(imgDoc.requireList).map((key) => {
+      return [
+        imgDoc.getImageByType(key, true),
+        imgDoc.getImageByType(key),
+        imgDoc.requireList[key],
+      ];
+    });
+    require.push([
+      imgDoc.getImageByType(null, true),
+      imgDoc.getImageByType(null),
+      imgDoc.getImageByType('abcde'),
+    ]);
+
+    const importing = getKeyImage(imgDoc.importList).map((key) => {
+      return [imgDoc.getImageByType(key, true), imgDoc.getImageByType(key), imgDoc.importList[key]];
+    });
+    importing.push([
+      imgDoc.getImageByType(null, true),
+      imgDoc.getImageByType(null),
+      imgDoc.getImageByType('abcde', true),
+    ]);
+
+    const component = getKeyImage(imgDoc.componentList).map((key) => {
+      return [
+        imgDoc.getImageByType(key, true),
+        imgDoc.getImageByType(key),
+        imgDoc.componentList[key],
+      ];
+    });
+
+    component.push([
+      imgDoc.getImageByType(null, true),
+      imgDoc.getImageByType(null),
+      imgDoc.getImageByType('abcde', true),
+    ]);
 
     expect({ require, importing }).toMatchSnapshot();
   });

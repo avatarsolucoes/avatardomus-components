@@ -2,11 +2,31 @@ import React from 'react';
 // import renderer from 'react-test-renderer';
 import { shallow, mount } from 'enzyme';
 
-import { FormContent, Campo, Grupo, ButtonCampo, CampoMask } from '../FormDomus';
+import {
+  FormContent,
+  Campo,
+  Grupo,
+  ButtonCampo,
+  CampoMask,
+  CampoSelect,
+  CampoHidden,
+  LineToogle,
+} from '../FormDomus';
+
+const selectOptions = [
+  { id: 1, title: 'teste 1' },
+  { id: 2, title: 'teste 2' },
+  { id: 3, title: 'teste 3' },
+];
 
 function Form() {
   return (
-    <FormContent width={700} onSubmit={() => {}} initialData={{ nasc: '27/05/1983' }}>
+    <FormContent
+      width={700}
+      onSubmit={() => {}}
+      initialData={{ nasc: '27/05/1983', selecione: 1, testhidden: 1 }}
+    >
+      <CampoHidden name="testhidden" />
       <Campo name="teste1" />
       <Grupo>
         <ButtonCampo model="text" disabled>
@@ -29,6 +49,8 @@ function Form() {
         </ButtonCampo>
       </Grupo>
       <CampoMask name="nasc" mask="99/99/9999" lbicon="nasc" placeholder="data de nascimento" />
+      <CampoSelect name="selecione" options={selectOptions} />
+      <LineToogle name="linetoogle" label="teste checked" />
     </FormContent>
   );
 }
