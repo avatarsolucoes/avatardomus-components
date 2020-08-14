@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/avatarsolucoes/avatardomus-components/compare/v1.1.0...v1.2.0) (2020-08-14)
+
+
+### Features
+
+* add Campo customTheme, CampoHidden ([8ed7419](https://github.com/avatarsolucoes/avatardomus-components/commit/8ed7419d9b782b3bf8a79dc00914f2ab5b287322))
+* add CampoMask ([8a0c79f](https://github.com/avatarsolucoes/avatardomus-components/commit/8a0c79fe6d4a141d625ba8d03f8881d384cafd99))
+* add images docs ([740ed1a](https://github.com/avatarsolucoes/avatardomus-components/commit/740ed1a3762c0513b5771baed0400e9c4ed592eb))
+* add linetoogle ([c578df4](https://github.com/avatarsolucoes/avatardomus-components/commit/c578df43287c2b3b4e6bb97012b83108a728b3ac))
+* ToolButton add activedColor ([c312015](https://github.com/avatarsolucoes/avatardomus-components/commit/c312015b969b44af1793efc3d76c4609cbe78b18))
+
+
+### Bug Fixes
+
+* CampoSelect ([ed6d6a6](https://github.com/avatarsolucoes/avatardomus-components/commit/ed6d6a6beb0f781b7b5f9bd11536f9b651451c50))
+* tests ([2aaaf94](https://github.com/avatarsolucoes/avatardomus-components/commit/2aaaf94f6e302b1fea8e16e3e96d34d6bf659c21))
+* version ([9bbcf2f](https://github.com/avatarsolucoes/avatardomus-components/commit/9bbcf2f59530cd8c7c8a2ea56d4e4d6427c7b0f2))
+
 ## 1.1.0 (2020-06-10)
 
 
