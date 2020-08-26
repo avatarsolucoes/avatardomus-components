@@ -19,12 +19,19 @@ import { ReactComponent as Link } from './assets/lb-link.svg';
 import { ReactComponent as Copy } from './assets/lb-copy.svg';
 import { ReactComponent as Search } from './assets/lb-search.svg';
 import { ReactComponent as Cpf } from './assets/lb-cpf.svg';
-import { ReactComponent as Whatsapp } from './assets/lb-zap.svg';
+import { ReactComponent as Whatsapp } from './assets/lb-whatsapp.svg';
 import { ReactComponent as Nasc } from './assets/lb-nasc.svg';
 import { ReactComponent as Back } from './assets/lb-back.svg';
 import { ReactComponent as Unknow } from './assets/unknow.svg';
 
+import { ReactComponent as Facebook } from './assets/lb-facebook.svg';
+import { ReactComponent as Instagram } from './assets/lb-instagram.svg';
+import { ReactComponent as Website } from './assets/lb-website.svg';
+
 export const listImagesAsComponent = {
+  Website,
+  Instagram,
+  Facebook,
   Back,
   Nasc,
   Birday: Nasc,

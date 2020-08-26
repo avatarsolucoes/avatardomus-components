@@ -23,6 +23,7 @@ export {
   FormContent,
   Grupo,
   Campo,
+  CampoContent,
   ButtonCampo,
   CampoMask,
   CheckToogle,

@@ -19,13 +19,18 @@ import copy from './assets/lb-copy.svg';
 import link from './assets/lb-link.svg';
 import search from './assets/lb-search.svg';
 import cpf from './assets/lb-cpf.svg';
-import whatsapp from './assets/lb-zap.svg';
+import whatsapp from './assets/lb-whatsapp.svg';
 import nasc from './assets/lb-nasc.svg';
 import back from './assets/lb-back.svg';
-
+import facebook from './assets/lb-facebook.svg';
+import instagram from './assets/lb-instagram.svg';
+import website from './assets/lb-website.svg';
 import unknow from './assets/unknow.svg';
 
 export const listImagesImport = {
+  website,
+  instagram,
+  facebook,
   back,
   birday: nasc,
   nasc,
