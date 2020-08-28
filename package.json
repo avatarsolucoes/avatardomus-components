@@ -67,6 +67,7 @@
     "@types/classnames": "^2.2.10",
     "@types/react-input-mask": "^2.0.5",
     "@types/styled-components": "^5.1.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
     "babel-plugin-root-import": "5.1.0",
     "babel-preset-stage-0": "^6.24.1",
     "chroma-js": "^2.1.0",

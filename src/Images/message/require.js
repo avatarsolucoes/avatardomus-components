@@ -11,6 +11,9 @@ const sad = require('./assets/msg-sad.svg');
 const scripting = require('./assets/msg-scripting.svg');
 const timeout = require('./assets/msg-timeout.svg');
 const vehicle = require('./assets/msg-vehicle.svg');
+const sentmail = require('./assets/msg-sentmail.svg');
+const security = require('./assets/msg-security.svg');
+const joia = require('./assets/msg-ok.svg');
 const unknow = require('./assets/msg-unknow.svg');
 
 const listImagesAsSvg = {
@@ -27,6 +30,10 @@ const listImagesAsSvg = {
   scripting,
   timeout,
   vehicle,
+  sentmail,
+  security,
+  joia,
+  ok: joia,
   unknow,
 };
 
