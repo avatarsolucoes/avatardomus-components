@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 0.72 0.72"><path fill="none" d="M0 0h.72v.72H0z"/><path fill="#fff" d="M.11.08h.04V.04C.15.02.17 0 .2 0h.33l.13.13V.6C.66.63.64.65.62.65H.57v.03C.57.71.55.72.53.72H.11C.08.72.06.71.06.68V.12C.06.1.08.08.11.08zm.04.05H.11v.55h.41V.65H.2C.17.65.15.63.15.6V.13zm.47.03H.5C.49.16.49.16.49.15v-.1H.2V.6h.42V.16zM.25.25h.31c.01 0 .01 0 .01.01v.03S.57.3.56.3H.25V.25zm0 .09h.31c.01 0 .01 0 .01.01v.03s0 .01-.01.01H.25V.34zm0 .09h.31c.01 0 .01.01.01.01v.03c0 .01 0 .01-.01.01H.25V.43zm0-.32h.18c.01 0 .01.01.01.01v.03c0 .01 0 .01-.01.01H.25V.11z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="192px" height="192px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21.38 21.38"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2541477897760">
+   <rect class="fil0" width="21.38" height="21.38"/>
+   <path class="fil1" d="M3.9 4.4l11.22 0c0.16,0 0.29,0.13 0.29,0.29l0 4.65 0 9.71c0,0.16 -0.13,0.29 -0.29,0.29l-11.22 0c-0.16,0 -0.29,-0.13 -0.29,-0.29l0 -14.36c0,-0.16 0.13,-0.29 0.29,-0.29l0 0zm9.76 2.56l-8.06 0 0 -0.89 8.06 0 0 0.89zm0 1.79l-8.06 0 0 -0.89 8.06 0 0 0.89zm0 1.79l-8.06 0 0 -0.89 8.06 0 0 0.89zm-7.69 -8.5l0 1.57 10.23 0c0,4.46 0,8.91 0,13.37l1.57 0c0,-4.98 0,-9.96 0,-14.94l-11.8 0 0 0zm7.69 10.29l-8.06 0 0 -0.89 8.06 0 0 0.89zm0 1.79l-8.06 0 0 -0.9 8.06 0 0 0.9zm0 1.79l-8.06 0 0 -0.9 8.06 0 0 0.9z"/>
+  </g>
+ </g>
+</svg>

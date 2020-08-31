@@ -4,8 +4,14 @@ import gestor from './assets/gestor.svg';
 import me from './assets/me.svg';
 import unknow from './assets/unknow.svg';
 import documentos from './assets/documentos.svg';
+import company from './assets/company.svg';
+import info from './assets/info.svg';
+import config from './assets/config.svg';
 
 export const ImagesIcon = {
+  config,
+  info,
+  company,
   documentos,
   dashboard,
   condominio,
