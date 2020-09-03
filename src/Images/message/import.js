@@ -14,9 +14,11 @@ import vehicle from './assets/msg-vehicle.svg';
 import sentmail from './assets/msg-sentmail.svg';
 import security from './assets/msg-security.svg';
 import joia from './assets/msg-ok.svg';
+import expires from './assets/msg-expires.svg';
 import unknow from './assets/msg-unknow.svg';
 
 const listImagesAsSvg = {
+  expires,
   ask,
   askcaution,
   blocked,

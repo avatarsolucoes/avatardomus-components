@@ -14,9 +14,11 @@ const vehicle = require('./assets/msg-vehicle.svg');
 const sentmail = require('./assets/msg-sentmail.svg');
 const security = require('./assets/msg-security.svg');
 const joia = require('./assets/msg-ok.svg');
+const expires = require('./assets/msg-expires.svg');
 const unknow = require('./assets/msg-unknow.svg');
 
 const listImagesAsSvg = {
+  expires,
   ask,
   askcaution,
   blocked,

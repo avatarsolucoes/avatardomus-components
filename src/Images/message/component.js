@@ -15,8 +15,10 @@ import { ReactComponent as Sentmail } from './assets/msg-sentmail.svg';
 import { ReactComponent as Security } from './assets/msg-security.svg';
 import { ReactComponent as Joia } from './assets/msg-ok.svg';
 import { ReactComponent as Unknow } from './assets/msg-unknow.svg';
+import { ReactComponent as Expires } from './assets/msg-expires.svg';
 
 const listImagesAsComponent = {
+  Expires,
   Ask,
   Askcaution,
   Blocked,
