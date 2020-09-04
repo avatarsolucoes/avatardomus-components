@@ -36,6 +36,7 @@ import { ReactComponent as Mailinvite } from './assets/btn-mailinvite.svg';
 import { ReactComponent as Unknow } from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  Next: Follow,
   Mailinvite,
   Doc,
   Screen,

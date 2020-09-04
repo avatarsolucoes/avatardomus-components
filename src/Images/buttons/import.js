@@ -36,6 +36,7 @@ import mailinvite from './assets/btn-mailinvite.svg';
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  next: follow,
   mailinvite,
   doc,
   screen,

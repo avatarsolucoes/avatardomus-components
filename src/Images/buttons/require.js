@@ -36,6 +36,7 @@ const mailinvite = require('./assets/btn-mailinvite.svg');
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  next: follow,
   mailinvite,
   doc,
   screen,

@@ -25,9 +25,12 @@ import back from './assets/lb-back.svg';
 import facebook from './assets/lb-facebook.svg';
 import instagram from './assets/lb-instagram.svg';
 import website from './assets/lb-website.svg';
+import follow from './assets/lb-follow.svg';
 import unknow from './assets/unknow.svg';
 
 export const listImagesImport = {
+  next: follow,
+  follow,
   website,
   instagram,
   facebook,

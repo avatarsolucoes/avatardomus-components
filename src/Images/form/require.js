@@ -26,10 +26,13 @@ const back = require('./assets/lb-back.svg');
 const facebook = require('./assets/lb-facebook.svg');
 const instagram = require('./assets/lb-instagram.svg');
 const website = require('./assets/lb-website.svg');
+const follow = require('./assets/lb-follow.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
+  next: follow,
+  follow,
   website,
   instagram,
   facebook,

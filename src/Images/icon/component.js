@@ -7,8 +7,11 @@ import { ReactComponent as Unknow } from './assets/unknow.svg';
 import { ReactComponent as Company } from './assets/company.svg';
 import { ReactComponent as Info } from './assets/info.svg';
 import { ReactComponent as Config } from './assets/config.svg';
+import { ReactComponent as Follow } from './assets/follow.svg';
 
 export const listImagesAsComponent = {
+  Next: Follow,
+  Follow,
   Config,
   Info,
   Company,

@@ -7,8 +7,11 @@ const company = require('./assets/company.svg');
 const unknow = require('./assets/unknow.svg');
 const info = require('./assets/info.svg');
 const config = require('./assets/config.svg');
+const follow = require('./assets/follow.svg');
 
 export const listImagesAsSvg = {
+  next: follow,
+  follow,
   config,
   info,
   company,

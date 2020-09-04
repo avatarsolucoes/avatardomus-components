@@ -27,8 +27,11 @@ import { ReactComponent as Unknow } from './assets/unknow.svg';
 import { ReactComponent as Facebook } from './assets/lb-facebook.svg';
 import { ReactComponent as Instagram } from './assets/lb-instagram.svg';
 import { ReactComponent as Website } from './assets/lb-website.svg';
+import { ReactComponent as Follow } from './assets/lb-follow.svg';
 
 export const listImagesAsComponent = {
+  Next: Follow,
+  Follow,
   Website,
   Instagram,
   Facebook,
