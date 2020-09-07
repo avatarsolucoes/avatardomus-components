@@ -27,10 +27,12 @@ const facebook = require('./assets/lb-facebook.svg');
 const instagram = require('./assets/lb-instagram.svg');
 const website = require('./assets/lb-website.svg');
 const follow = require('./assets/lb-follow.svg');
+const condominio = require('./assets/lb-cond.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
+  condominio,
   next: follow,
   follow,
   website,

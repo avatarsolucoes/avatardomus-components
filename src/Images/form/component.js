@@ -28,8 +28,10 @@ import { ReactComponent as Facebook } from './assets/lb-facebook.svg';
 import { ReactComponent as Instagram } from './assets/lb-instagram.svg';
 import { ReactComponent as Website } from './assets/lb-website.svg';
 import { ReactComponent as Follow } from './assets/lb-follow.svg';
+import { ReactComponent as Condominio } from './assets/lb-cond.svg';
 
 export const listImagesAsComponent = {
+  Condominio,
   Next: Follow,
   Follow,
   Website,

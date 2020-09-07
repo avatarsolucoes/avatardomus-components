@@ -26,9 +26,11 @@ import facebook from './assets/lb-facebook.svg';
 import instagram from './assets/lb-instagram.svg';
 import website from './assets/lb-website.svg';
 import follow from './assets/lb-follow.svg';
+import condominio from './assets/lb-cond.svg';
 import unknow from './assets/unknow.svg';
 
 export const listImagesImport = {
+  condominio,
   next: follow,
   follow,
   website,
