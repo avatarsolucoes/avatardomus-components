@@ -29,17 +29,21 @@ const DivCampoContent = styled.div`
 
 export default function CampoContent(props) {
   const { theme } = useTheme();
-  const { children, className, wchild, disabled, ...rest } = props;
+  const { children, className, wchild, disabled, style, hidden, ...rest } = props;
   const styleCss = {
     [css.campo]: true,
     [css.w50]: wchild === 'w50',
     [css.w70]: wchild === 'w70',
     [css.w100]: wchild === 'w100',
     [css.disabled]: !!disabled,
+    [css.hidden]: !!hidden,
   };
 
+  // const styles = { ...style };
+  // if (hidden) styles.display = 'none';
+
   return (
-    <DivCampoContent className={cx(styleCss, className)} {...rest} theme={theme}>
+    <DivCampoContent className={cx(styleCss, className)} style={style} {...rest} theme={theme}>
       {children}
     </DivCampoContent>
   );
@@ -50,6 +54,8 @@ CampoContent.propTypes = {
   className: PropTypes.string,
   wchild: PropTypes.oneOf(['', 'w50', 'w70', 'w100']),
   disabled: PropTypes.bool,
+  hidden: PropTypes.bool,
+  style: PropTypes.object,
 };
 
 CampoContent.defaultProps = {
@@ -57,4 +63,6 @@ CampoContent.defaultProps = {
   className: null,
   wchild: '',
   disabled: false,
+  hidden: false,
+  style: {},
 };

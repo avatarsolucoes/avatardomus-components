@@ -15,9 +15,11 @@ const sentmail = require('./assets/msg-sentmail.svg');
 const security = require('./assets/msg-security.svg');
 const joia = require('./assets/msg-ok.svg');
 const expires = require('./assets/msg-expires.svg');
+const download = require('./assets/msg-download.svg');
 const unknow = require('./assets/msg-unknow.svg');
 
 const listImagesAsSvg = {
+  download,
   expires,
   ask,
   askcaution,

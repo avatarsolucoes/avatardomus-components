@@ -10,7 +10,7 @@ import css from '../form-domus.css';
 import CampoContent from '../CampoContent';
 
 export default function Campo(props) {
-  const { name, lbicon, className, wchild, ...rest } = props;
+  const { name, lbicon, className, wchild, hidden, ...rest } = props;
 
   const styleCss = {
     [css.lbicon]: true,
@@ -23,7 +23,7 @@ export default function Campo(props) {
   };
 
   return (
-    <CampoContent className={classe} wchild={wchild} disabled={!!rest.disabled}>
+    <CampoContent className={classe} wchild={wchild} disabled={!!rest.disabled} hidden={hidden}>
       <Input name={name} className="primary" {...rest} />
       <label data-lbicon={lbicon} htmlFor={name} className="bgcontrast" style={styleLabel} />
     </CampoContent>
@@ -35,6 +35,7 @@ Campo.propTypes = {
   lbicon: PropTypes.string,
   className: PropTypes.string,
   wchild: PropTypes.oneOf(['', 'w50', 'w70', 'w100']),
+  hidden: PropTypes.bool,
 };
 
 Campo.defaultProps = {
@@ -42,4 +43,5 @@ Campo.defaultProps = {
   lbicon: 'unknow',
   className: null,
   wchild: '',
+  hidden: false,
 };

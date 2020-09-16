@@ -28,10 +28,12 @@ const instagram = require('./assets/lb-instagram.svg');
 const website = require('./assets/lb-website.svg');
 const follow = require('./assets/lb-follow.svg');
 const condominio = require('./assets/lb-cond.svg');
+const clock = require('./assets/lb-clock.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
+  clock,
   condominio,
   next: follow,
   follow,

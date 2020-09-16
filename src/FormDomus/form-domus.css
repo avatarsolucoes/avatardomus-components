@@ -85,6 +85,10 @@
   border: 0;
 }
 
+.campo.hidden {
+  display: none !important;
+}
+
 .campo.lbicon,
 .campo.search {
   width: 100%;

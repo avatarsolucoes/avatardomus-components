@@ -15,9 +15,11 @@ import sentmail from './assets/msg-sentmail.svg';
 import security from './assets/msg-security.svg';
 import joia from './assets/msg-ok.svg';
 import expires from './assets/msg-expires.svg';
+import download from './assets/msg-download.svg';
 import unknow from './assets/msg-unknow.svg';
 
 const listImagesAsSvg = {
+  download,
   expires,
   ask,
   askcaution,

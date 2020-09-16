@@ -16,8 +16,10 @@ import { ReactComponent as Security } from './assets/msg-security.svg';
 import { ReactComponent as Joia } from './assets/msg-ok.svg';
 import { ReactComponent as Unknow } from './assets/msg-unknow.svg';
 import { ReactComponent as Expires } from './assets/msg-expires.svg';
+import { ReactComponent as Download } from './assets/msg-download.svg';
 
 const listImagesAsComponent = {
+  Download,
   Expires,
   Ask,
   Askcaution,

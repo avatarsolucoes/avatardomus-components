@@ -29,8 +29,10 @@ import { ReactComponent as Instagram } from './assets/lb-instagram.svg';
 import { ReactComponent as Website } from './assets/lb-website.svg';
 import { ReactComponent as Follow } from './assets/lb-follow.svg';
 import { ReactComponent as Condominio } from './assets/lb-cond.svg';
+import { ReactComponent as Clock } from './assets/lb-clock.svg';
 
 export const listImagesAsComponent = {
+  Clock,
   Condominio,
   Next: Follow,
   Follow,

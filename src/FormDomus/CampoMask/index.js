@@ -8,7 +8,7 @@ import { getImageByType } from '../../Images/form';
 import CampoContent from '../CampoContent';
 
 export default function CampoMask(props) {
-  const { name, lbicon, className, ...rest } = props;
+  const { name, lbicon, className, hidden, ...rest } = props;
 
   const styleCss = {
     [css.lbicon]: true,
@@ -20,7 +20,7 @@ export default function CampoMask(props) {
   };
 
   return (
-    <CampoContent className={classe} disabled={!!rest.disabled}>
+    <CampoContent className={classe} disabled={!!rest.disabled} hidden={hidden}>
       <Mask name={name} className="primary" {...rest} />
       <label data-lbicon={lbicon} htmlFor={name} className="bgcontrast" style={styleLabel} />
     </CampoContent>
@@ -31,10 +31,12 @@ CampoMask.propTypes = {
   name: PropTypes.string,
   lbicon: PropTypes.string,
   className: PropTypes.string,
+  hidden: PropTypes.bool,
 };
 
 CampoMask.defaultProps = {
   name: `noname-${Math.random()}`,
   lbicon: 'unknow',
   className: null,
+  hidden: false,
 };
