@@ -6,16 +6,17 @@ import css from './texts.css';
 import Span from './Span';
 
 export default function Text(props) {
-  const { children, text, className, ...rest } = props;
+  const { children, text, className, onDoubleClick, onClick, bold, ...rest } = props;
 
   const classCss = {
     [css.f14]: true,
+    [css.bold]: bold,
   };
 
-  const classe = cx(classCss, 'f14', className);
+  const classe = cx(classCss, className);
 
   return (
-    <Span {...rest} className={classe}>
+    <Span {...rest} className={classe} onDoubleClick={onDoubleClick} onClick={onClick}>
       {children || text}
     </Span>
   );
@@ -25,10 +26,16 @@ Text.propTypes = {
   children: PropTypes.any,
   text: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   className: PropTypes.string,
+  onDoubleClick: PropTypes.func,
+  onClick: PropTypes.func,
+  bold: PropTypes.bool,
 };
 
 Text.defaultProps = {
   children: null,
   text: null,
   className: null,
+  onDoubleClick: () => {},
+  onClick: () => {},
+  bold: false,
 };
