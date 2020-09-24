@@ -7,12 +7,12 @@ import CampoContent from '../CampoContent';
 import css from '../form-domus.css';
 
 export default function CampoSelect(props) {
-  const { name, campoClass, options, ...rest } = props;
+  const { name, campoClass, options, wchild, ...rest } = props;
 
   const classe = cx({ [css.divSelect]: true, [css.lbicon]: true }, campoClass);
 
   return (
-    <CampoContent className={classe} disabled={!!rest.disabled}>
+    <CampoContent wchild={wchild} className={classe} disabled={!!rest.disabled}>
       <Select name={name} className="primary" options={options} {...rest} />
     </CampoContent>
   );
@@ -22,9 +22,11 @@ CampoSelect.propTypes = {
   name: PropTypes.string.isRequired,
   campoClass: PropTypes.string,
   options: PropTypes.array,
+  wchild: PropTypes.oneOf(['', 'w50', 'w70', 'w100']),
 };
 
 CampoSelect.defaultProps = {
   campoClass: null,
   options: [],
+  wchild: '',
 };

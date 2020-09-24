@@ -39,9 +39,6 @@ export default function CampoContent(props) {
     [css.hidden]: !!hidden,
   };
 
-  // const styles = { ...style };
-  // if (hidden) styles.display = 'none';
-
   return (
     <DivCampoContent className={cx(styleCss, className)} style={style} {...rest} theme={theme}>
       {children}
