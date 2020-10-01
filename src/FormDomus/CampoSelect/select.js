@@ -32,7 +32,7 @@ export default function Select(props) {
   function prepareArrayOptions() {
     return options.map(({ id, ...r }) => {
       return {
-        uid: `${name}-${id}`,
+        uid: `${name}-${id || Math.random}`,
         id: id ? id.toString() : '',
         ...r,
       };
