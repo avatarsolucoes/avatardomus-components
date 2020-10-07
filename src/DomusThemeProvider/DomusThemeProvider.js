@@ -22,7 +22,7 @@ export default function ThemeProvider(props) {
   }
 
   /**
-   * @function getTheme
+   * @function getDefaultTheme
    * @returns {IThemeData}
    */
   function getDefaultTheme() {

@@ -1,5 +1,5 @@
 import React from 'react';
-// import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import { shallow, mount } from 'enzyme';
 
 import {
@@ -51,6 +51,7 @@ function Form() {
       <CampoMask name="nasc" mask="99/99/9999" lbicon="nasc" placeholder="data de nascimento" />
       <CampoSelect name="selecione" options={selectOptions} />
       <LineToogle name="linetoogle" label="teste checked" />
+      <LineToogle name="linetoogle1" label="teste checked 1" checked width={100} />
     </FormContent>
   );
 }
@@ -63,11 +64,23 @@ describe('test FormContent', () => {
   it('should show App click', () => {
     const wrapper = mount(<Form />);
     wrapper.update();
+    wrapper
+      .find({ name: 'linetoogle1' })
+      .at(0)
+      .simulate('change', { target: { checked: true } });
+    wrapper.update();
     expect(wrapper).toMatchSnapshot();
   });
 
   it(`Test shallow `, () => {
     const wrapper = shallow(<Form />).html();
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it(`Test render`, () => {
+    const wrapper = {
+      text: renderer.create(<Form />).toJSON(),
+    };
     expect(wrapper).toMatchSnapshot();
   });
 });

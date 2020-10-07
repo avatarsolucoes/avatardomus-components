@@ -57,10 +57,6 @@ export default function UnFormCheckToogle(props) {
     }
   }, [checked]);
 
-  function handleChange(e) {
-    return onChange(e);
-  }
-
   function buildCss(s) {
     return `.${css.ufCheckToogleContent}{
       max-height: 100%;
@@ -98,7 +94,7 @@ export default function UnFormCheckToogle(props) {
           // checked={!!checked}
           className={css.ufCheckToogleInput}
           name={name}
-          onChange={handleChange}
+          onChange={onChange}
         />
         <label className={classLabel} htmlFor={name} />
       </div>

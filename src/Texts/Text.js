@@ -10,13 +10,12 @@ export default function Text(props) {
 
   const classCss = {
     [css.f14]: true,
-    [css.bold]: bold,
   };
 
   const classe = cx(classCss, className);
 
   return (
-    <Span {...rest} className={classe} onDoubleClick={onDoubleClick} onClick={onClick}>
+    <Span bold={bold} className={classe} onDoubleClick={onDoubleClick} onClick={onClick} {...rest}>
       {children || text}
     </Span>
   );
@@ -29,13 +28,17 @@ Text.propTypes = {
   onDoubleClick: PropTypes.func,
   onClick: PropTypes.func,
   bold: PropTypes.bool,
+  title: PropTypes.string,
+  style: PropTypes.object,
 };
 
 Text.defaultProps = {
   children: null,
   text: null,
-  className: null,
+  className: '',
   onDoubleClick: () => {},
   onClick: () => {},
   bold: false,
+  title: '',
+  style: {},
 };

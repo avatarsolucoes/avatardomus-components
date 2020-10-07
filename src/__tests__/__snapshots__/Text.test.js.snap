@@ -1,14 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Span Test Span 1`] = `
+exports[`Teste Text Test Text with children 1`] = `"<span class=\\"undefined text-span bold undefined text1\\" title=\\"\\">double click</span>"`;
+
+exports[`Teste Text Test prop bold 1`] = `
 Object {
   "text": <span
-    className="text-span undefined f14"
+    className="undefined text-span bold undefined"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
     style={Object {}}
+    title=""
   >
     test span
   </span>,
 }
 `;
 
-exports[`Span Test shallow 1`] = `ShallowWrapper {}`;
+exports[`Teste Text Test shallow html 1`] = `"<span class=\\"text-span undefined\\" title=\\"\\">test span</span>"`;

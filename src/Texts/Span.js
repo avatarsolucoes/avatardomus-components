@@ -12,7 +12,7 @@ export default function Span(props) {
     [css.bold]: !!bold,
   };
 
-  const classe = cx(classCss, 'text-span', { bold: !!bold }, className);
+  const classe = cx(classCss, 'text-span', { bold }, className);
   return (
     <>
       {strong ? (
@@ -40,7 +40,7 @@ Span.propTypes = {
 Span.defaultProps = {
   children: null,
   text: null,
-  className: null,
+  className: '',
   size: null,
   bold: false,
   strong: false,

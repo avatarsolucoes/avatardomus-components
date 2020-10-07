@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PageTitle Test renderer whith blank 1`] = `"<div class=\\"page-title\\"></div>"`;
+exports[`PageTitle Test renderer whith blank 1`] = `"<div class=\\"\\"></div>"`;
 
-exports[`PageTitle Test renderer whith children 1`] = `"<div class=\\"page-title test\\" style=\\"width:100%;max-width:100%\\"><h1>Test Title</h1></div>"`;
+exports[`PageTitle Test renderer whith children 1`] = `"<div class=\\"test\\" style=\\"width:100%;max-width:100%\\"><h1>Test Title</h1></div>"`;

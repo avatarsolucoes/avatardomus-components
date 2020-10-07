@@ -39,14 +39,16 @@
   display: block;
 }
 
-.bold {
+.textSpan, .textSpan.bold {
   font-weight: bold;
 }
+
 
 .weak {
   opacity: 0.6;
 }
 
+.textSpan.f14,
 .f14{ font-size: 14px; }
 
 .pad2{ padding: 2px; }

@@ -7,6 +7,68 @@ Array [
       className="image-message"
     >
       <svg>
+        msg-download.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-download.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-download.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        msg-expires.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-expires.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-expires.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
         msg-ask.svg
       </svg>
     </div>,
@@ -402,6 +464,130 @@ Array [
     >
       <svg>
         msg-vehicle.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        msg-sentmail.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-sentmail.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-sentmail.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        msg-security.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-security.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-security.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        msg-ok.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-ok.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-ok.svg
+      </svg>
+    </div>,
+  },
+  Object {
+    "raw": <div
+      className="image-message"
+    >
+      <svg>
+        msg-ok.svg
+      </svg>
+    </div>,
+    "withText": <div
+      className="image-message"
+    >
+      <svg
+        height={100}
+        width={100}
+      >
+        msg-ok.svg
+      </svg>
+      <p
+        className="message-text"
+      >
+        test
+      </p>
+    </div>,
+    "withouText": <div
+      className="image-message teste1"
+    >
+      <svg>
+        msg-ok.svg
       </svg>
     </div>,
   },
