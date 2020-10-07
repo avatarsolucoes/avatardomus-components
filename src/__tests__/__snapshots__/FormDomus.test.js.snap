@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test FormContent Test render 1`] = `
+Object {
+  "text": <div
+    className="undefined"
+    style={
+      Object {
+        "width": 700,
+      }
+    }
+  >
+    <form
+      data-testid="form"
+      onSubmit={[Function]}
+    >
+      <input
+        aria-label="testhidden"
+        defaultValue={1}
+        id="testhidden"
+        name="testhidden"
+        type="hidden"
+      />
+      <div
+        className="sc-AxjAm cIZiFm undefined"
+        style={Object {}}
+      >
+        <input
+          aria-label="teste1"
+          className="primary"
+          id="teste1"
+          name="teste1"
+        />
+        <label
+          className="bgcontrast"
+          data-lbicon="unknow"
+          htmlFor="teste1"
+          style={
+            Object {
+              "backgroundImage": "url([object Object])",
+            }
+          }
+        />
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="sc-AxjAm cIZiFm"
+          style={Object {}}
+        >
+          <button
+            className="sc-AxirZ grLmqO undefined"
+            disabled={true}
+            style={
+              Object {
+                "backgroundImage": "none",
+              }
+            }
+          >
+            BTN 1
+          </button>
+        </div>
+        <div
+          className="sc-AxjAm cIZiFm"
+          style={Object {}}
+        >
+          <button
+            className="sc-AxirZ jOjxLT"
+            style={
+              Object {
+                "backgroundImage": "none",
+              }
+            }
+          >
+            BTN 2
+          </button>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="sc-AxjAm cIZiFm"
+          style={Object {}}
+        >
+          <button
+            className="sc-AxirZ htmYrl primary"
+            style={
+              Object {
+                "backgroundImage": "none",
+              }
+            }
+          >
+            BTN 3
+          </button>
+        </div>
+        <div
+          className="sc-AxjAm cIZiFm"
+          style={Object {}}
+        >
+          <button
+            className="sc-AxirZ ghsRvw"
+            style={
+              Object {
+                "backgroundImage": "url([object Object])",
+              }
+            }
+          >
+            BTN 4
+          </button>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="sc-AxjAm cIZiFm"
+          style={Object {}}
+        >
+          <button
+            className="sc-AxirZ ghsRvw"
+            style={
+              Object {
+                "backgroundImage": "none",
+              }
+            }
+          >
+            BTN 3
+          </button>
+        </div>
+        <div
+          className="sc-AxjAm cIZiFm"
+          style={Object {}}
+        >
+          <button
+            className="sc-AxirZ ghsRvw"
+            style={
+              Object {
+                "backgroundImage": "url([object Object])",
+              }
+            }
+          >
+            BTN 4
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-AxjAm cIZiFm undefined"
+        style={Object {}}
+      >
+        <input
+          aria-label="nasc"
+          className="primary"
+          defaultValue="27/05/1983"
+          id="nasc"
+          name="nasc"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          placeholder="data de nascimento"
+        />
+        <label
+          className="bgcontrast"
+          data-lbicon="nasc"
+          htmlFor="nasc"
+          style={
+            Object {
+              "backgroundImage": "url([object Object])",
+            }
+          }
+        />
+      </div>
+      <div
+        className="sc-AxjAm cIZiFm undefined"
+        style={Object {}}
+      >
+        <select
+          aria-label="selecione"
+          className="primary"
+          defaultValue={1}
+          id="selecione"
+          name="selecione"
+          onChange={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url([object Object])",
+            }
+          }
+        >
+          <option
+            data-uid="selecione-1"
+            value="1"
+          >
+            teste 1
+          </option>
+          <option
+            data-uid="selecione-2"
+            value="2"
+          >
+            teste 2
+          </option>
+          <option
+            data-uid="selecione-3"
+            value="3"
+          >
+            teste 3
+          </option>
+        </select>
+      </div>
+      <div
+        className="undefined"
+      >
+        <div>
+          teste checked
+          <label
+            htmlFor="linetoogle"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".undefined{
+      max-height: 100%;
+      height: 32px;
+      width: 52px;
+      min-width: 52px;
+    }
+    .undefined {
+      height: 20px;
+      max-height: 20px;
+      width: 20px;
+      max-width: 20px;
+    }
+    .undefined:checked + label {
+      -o-transform: translate(32px, -50%);
+      -ms-transform: translate(32px, -50%);
+      -moz-transform: translate(32px, -50%);
+      -webkit-transform: translate(32px, -50%);
+      transform: translate(32px, -50%);
+    }
+    ",
+              }
+            }
+          />
+          <div
+            className=""
+          >
+            <input
+              aria-label="linetoogle"
+              disabled={false}
+              id="linetoogle"
+              name="linetoogle"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="bgsecundary"
+              htmlFor="linetoogle"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="undefined"
+      >
+        <div>
+          teste checked 1
+          <label
+            htmlFor="linetoogle1"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".undefined{
+      max-height: 100%;
+      height: 32px;
+      width: 100px;
+      min-width: 100px;
+    }
+    .undefined {
+      height: 20px;
+      max-height: 20px;
+      width: 20px;
+      max-width: 20px;
+    }
+    .undefined:checked + label {
+      -o-transform: translate(80px, -50%);
+      -ms-transform: translate(80px, -50%);
+      -moz-transform: translate(80px, -50%);
+      -webkit-transform: translate(80px, -50%);
+      transform: translate(80px, -50%);
+    }
+    ",
+              }
+            }
+          />
+          <div
+            className=""
+          >
+            <input
+              aria-label="linetoogle1"
+              disabled={false}
+              id="linetoogle1"
+              name="linetoogle1"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="bgsecundary"
+              htmlFor="linetoogle1"
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>,
+}
+`;
+
+exports[`test FormContent Test shallow  1`] = `
+"<div class=\\"undefined\\" style=\\"width:700px\\"><form data-testid=\\"form\\"><input type=\\"hidden\\" id=\\"testhidden\\" name=\\"testhidden\\" aria-label=\\"testhidden\\" value=\\"1\\"/><div class=\\"sc-AxjAm cIZiFm undefined\\"><input class=\\"primary\\" id=\\"teste1\\" name=\\"teste1\\" aria-label=\\"teste1\\"/><label data-lbicon=\\"unknow\\" for=\\"teste1\\" class=\\"bgcontrast\\" style=\\"background-image:url([object Object])\\"></label></div><div class=\\"\\"><div class=\\"sc-AxjAm cIZiFm\\"><button disabled=\\"\\" class=\\"sc-AxirZ grLmqO undefined\\" style=\\"background-image:none\\">BTN 1</button></div><div class=\\"sc-AxjAm cIZiFm\\"><button class=\\"sc-AxirZ jOjxLT\\" style=\\"background-image:none\\">BTN 2</button></div></div><div class=\\"\\"><div class=\\"sc-AxjAm cIZiFm\\"><button class=\\"sc-AxirZ htmYrl primary\\" style=\\"background-image:none\\">BTN 3</button></div><div class=\\"sc-AxjAm cIZiFm\\"><button class=\\"sc-AxirZ ghsRvw\\" style=\\"background-image:url([object Object])\\">BTN 4</button></div></div><div class=\\"\\"><div class=\\"sc-AxjAm cIZiFm\\"><button class=\\"sc-AxirZ ghsRvw\\" style=\\"background-image:none\\">BTN 3</button></div><div class=\\"sc-AxjAm cIZiFm\\"><button class=\\"sc-AxirZ ghsRvw\\" style=\\"background-image:url([object Object])\\">BTN 4</button></div></div><div class=\\"sc-AxjAm cIZiFm undefined\\"><input id=\\"nasc\\" name=\\"nasc\\" aria-label=\\"nasc\\" class=\\"primary\\" placeholder=\\"data de nascimento\\" value=\\"27/05/1983\\"/><label data-lbicon=\\"nasc\\" for=\\"nasc\\" class=\\"bgcontrast\\" style=\\"background-image:url([object Object])\\"></label></div><div class=\\"sc-AxjAm cIZiFm undefined\\"><select id=\\"selecione\\" name=\\"selecione\\" aria-label=\\"selecione\\" style=\\"background-image:url([object Object])\\" class=\\"primary\\"><option selected=\\"\\" value=\\"1\\" data-uid=\\"selecione-1\\">teste 1</option><option value=\\"2\\" data-uid=\\"selecione-2\\">teste 2</option><option value=\\"3\\" data-uid=\\"selecione-3\\">teste 3</option></select></div><div class=\\"undefined\\"><div>teste checked<label for=\\"linetoogle\\"></label></div><div><style>.undefined{
+      max-height: 100%;
+      height: 32px;
+      width: 52px;
+      min-width: 52px;
+    }
+    .undefined {
+      height: 20px;
+      max-height: 20px;
+      width: 20px;
+      max-width: 20px;
+    }
+    .undefined:checked + label {
+      -o-transform: translate(32px, -50%);
+      -ms-transform: translate(32px, -50%);
+      -moz-transform: translate(32px, -50%);
+      -webkit-transform: translate(32px, -50%);
+      transform: translate(32px, -50%);
+    }
+    </style><div class=\\"\\"><input type=\\"checkbox\\" id=\\"linetoogle\\" name=\\"linetoogle\\" aria-label=\\"linetoogle\\"/><label class=\\"bgsecundary\\" for=\\"linetoogle\\"></label></div></div></div><div class=\\"undefined\\"><div>teste checked 1<label for=\\"linetoogle1\\"></label></div><div><style>.undefined{
+      max-height: 100%;
+      height: 32px;
+      width: 100px;
+      min-width: 100px;
+    }
+    .undefined {
+      height: 20px;
+      max-height: 20px;
+      width: 20px;
+      max-width: 20px;
+    }
+    .undefined:checked + label {
+      -o-transform: translate(80px, -50%);
+      -ms-transform: translate(80px, -50%);
+      -moz-transform: translate(80px, -50%);
+      -webkit-transform: translate(80px, -50%);
+      transform: translate(80px, -50%);
+    }
+    </style><div class=\\"\\"><input type=\\"checkbox\\" id=\\"linetoogle1\\" name=\\"linetoogle1\\" aria-label=\\"linetoogle1\\"/><label class=\\"bgsecundary\\" for=\\"linetoogle1\\"></label></div></div></div></form></div>"
+`;
+
+exports[`test FormContent should show App click 1`] = `ReactWrapper {}`;

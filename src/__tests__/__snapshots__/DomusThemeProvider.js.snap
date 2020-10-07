@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DomusThemeProvider Test renderer Children 1`] = `
+Object {
+  "a": <div
+    style={
+      Object {
+        "backgroundColor": "#122A54",
+      }
+    }
+  />,
+  "b": <div
+    style={
+      Object {
+        "backgroundColor": "#0D7ECC",
+      }
+    }
+  />,
+  "c": <div
+    style={
+      Object {
+        "backgroundColor": "#BB1806",
+      }
+    }
+  />,
+}
+`;
+
+exports[`DomusThemeProvider Test renderer DomusThemeProvider 1`] = `
+Object {
+  "text": Array [
+    <div
+      style={
+        Object {
+          "backgroundColor": "#122A54",
+        }
+      }
+    />,
+    <div
+      style={
+        Object {
+          "backgroundColor": "#0D7ECC",
+        }
+      }
+    />,
+    <div
+      style={
+        Object {
+          "backgroundColor": "#BB1806",
+        }
+      }
+    />,
+  ],
+}
+`;
+
+exports[`DomusThemeProvider Test shallow DomusThemeProvider 1`] = `ShallowWrapper {}`;

@@ -30,10 +30,15 @@ import updatecalendar from './assets/btn-updatecalendar.svg';
 import downmodule from './assets/btn-downmodule.svg';
 import screenfull from './assets/btn-screenfull.svg';
 import screen from './assets/btn-screen.svg';
+import doc from './assets/btn-doc.svg';
+import mailinvite from './assets/btn-mailinvite.svg';
 
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  next: follow,
+  mailinvite,
+  doc,
   screen,
   screenfull,
   downmodule,

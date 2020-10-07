@@ -11,6 +11,8 @@
 .listOfCards {
   margin: 0 auto;
   padding: 0 2px;
+  width: 100%;
+
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;

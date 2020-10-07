@@ -4,13 +4,40 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 
 import css from './pagetitle.css';
+import { ImagesButton } from '../Images/buttons/require';
+
+function ImgLink() {
+  return (
+    <span
+      className={css.link}
+      style={{
+        backgroundImage: `url(${ImagesButton.back})`,
+      }}
+    />
+  );
+}
 
 export default function PageTitle(props) {
-  const { children, className, h1, h2, h3, h4, ...rest } = props;
-  const classe = cx(css.pageTitle, 'page-title', className);
+  const { children, className, h1, h2, h3, h4, backLink: BackLink, ...rest } = props;
+  const classe = cx(
+    css.pageTitle,
+    {
+      [css.backlink]: !!BackLink,
+    },
+    className,
+  );
   return (
     <div className={classe} {...rest}>
-      {children || (h1 ? <h1>{h1}</h1> : h2 ? <h2>{h2}</h2> : h3 ? <h3>{h3}</h3> : h4 ? <h4>{h4}</h4> : '')}
+      {BackLink && <div />}
+      {children ||
+        (h1 ? <h1>{h1}</h1> : h2 ? <h2>{h2}</h2> : h3 ? <h3>{h3}</h3> : h4 ? <h4>{h4}</h4> : '')}
+      {BackLink ? (
+        <>
+          <BackLink>
+            <ImgLink />
+          </BackLink>
+        </>
+      ) : null}
     </div>
   );
 }
@@ -22,6 +49,7 @@ PageTitle.propTypes = {
   h2: PropTypes.string,
   h3: PropTypes.string,
   h4: PropTypes.string,
+  backLink: PropTypes.any,
 };
 
 PageTitle.defaultProps = {
@@ -31,4 +59,5 @@ PageTitle.defaultProps = {
   h2: null,
   h3: null,
   h4: null,
+  backLink: null,
 };

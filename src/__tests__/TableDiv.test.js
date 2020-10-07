@@ -2,8 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { TableDiv, DivLine, DivCell, SupLabel } from '..';
 
-// import { round } from '../helpers/formats';
-
 describe('TableDiv', () => {
   it('is truthy', () => {
     expect(TableDiv).toBeTruthy();
@@ -29,7 +27,7 @@ describe('TableDiv', () => {
           <DivCell>TESTE</DivCell>
         </DivLine>
         <DivLine fcenter>
-          <DivCell>TESTE</DivCell>
+          <DivCell width={32}>TESTE</DivCell>
           <DivCell>TESTE</DivCell>
           <DivCell>TESTE</DivCell>
         </DivLine>

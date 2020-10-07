@@ -1,5 +1,8 @@
 const inputChecked = require('./assets/input-checked.svg');
 const inputUnchecked = require('./assets/input-unchecked.svg');
+const selectSeta = require('./assets/select-seta.svg');
+const selectSetaBg = require('./assets/select-seta-bg.svg');
+
 const acha = require('./assets/lb-acha.svg');
 const add = require('./assets/lb-add.svg');
 const email = require('./assets/lb-email.svg');
@@ -16,10 +19,34 @@ const exclude = require('./assets/lb-exclude.svg');
 const link = require('./assets/lb-link.svg');
 const copy = require('./assets/lb-copy.svg');
 const search = require('./assets/lb-search.svg');
+const cpf = require('./assets/lb-cpf.svg');
+const whatsapp = require('./assets/lb-whatsapp.svg');
+const nasc = require('./assets/lb-nasc.svg');
+const back = require('./assets/lb-back.svg');
+const facebook = require('./assets/lb-facebook.svg');
+const instagram = require('./assets/lb-instagram.svg');
+const website = require('./assets/lb-website.svg');
+const follow = require('./assets/lb-follow.svg');
+const condominio = require('./assets/lb-cond.svg');
+const clock = require('./assets/lb-clock.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
+  clock,
+  condominio,
+  next: follow,
+  follow,
+  website,
+  instagram,
+  facebook,
+  back,
+  birday: nasc,
+  nasc,
+  whatsapp,
+  cpf,
+  selectSeta,
+  selectSetaBg,
   inputChecked,
   inputUnchecked,
   search,

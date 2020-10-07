@@ -12,13 +12,14 @@ import ToolItem from './ToolItem';
 // };
 
 export default function ToolButton(props) {
-  const { className, disabled, icon, actived, ...rest } = props;
+  const { className, disabled, icon, actived, activedColor, ...rest } = props;
 
   const styles = {
     backgroundImage: `url(${imgButton.getImageByType(icon, true)})`,
   };
 
   if (typeof actived === 'string') styles.backgroundColor = actived;
+  if (typeof activedColor === 'string') styles.backgroundColor = activedColor;
 
   const cfgClass = {
     [css.toolsbarBtn]: true,
@@ -28,7 +29,7 @@ export default function ToolButton(props) {
 
   const classBtn = cx(cfgClass, 'toolsbar-btn', className, 'hover', {
     disabled: !!disabled,
-    actived: !!actived,
+    actived: !!(actived || activedColor),
   });
 
   return (
@@ -43,12 +44,14 @@ ToolButton.propTypes = {
   disabled: PropTypes.bool,
   actived: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   icon: PropTypes.string,
+  activedColor: PropTypes.string,
 };
 
 ToolButton.defaultProps = {
   className: null,
   disabled: false,
   actived: false,
+  activedColor: null,
   icon: 'unknow',
   // type: 'button',
 };

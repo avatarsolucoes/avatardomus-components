@@ -3,6 +3,17 @@ export interface ThemeBgColor {
   background: string;
 }
 
+export interface IChartsTheme {
+  primary: string;
+  secundary: string;
+  contrast: string;
+  primaryContrast: string;
+  secundaryContrast: string;
+}
+
+export interface ILogoTheme {
+  url: string;
+}
 export interface IThemeData {
   primary: string;
   secundary: string;
@@ -10,16 +21,8 @@ export interface IThemeData {
   bgprimary: ThemeBgColor;
   bgsecundary: ThemeBgColor;
   bgcontrast: ThemeBgColor;
-  charts: {
-    primary: string;
-    secundary: string;
-    contrast: string;
-    primaryContrast: string;
-    secundaryContrast: string;
-  };
-  logo: {
-    url: string;
-  }
+  charts: IChartsTheme;
+  logo: ILogoTheme;
 }
 
 export interface IUseTheme {
