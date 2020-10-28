@@ -32,10 +32,12 @@ import screenfull from './assets/btn-screenfull.svg';
 import screen from './assets/btn-screen.svg';
 import doc from './assets/btn-doc.svg';
 import mailinvite from './assets/btn-mailinvite.svg';
+import mailnotify from './assets/btn-mailnotify.svg';
 
 import unknow from './assets/btn-unknow.svg';
 
 export const ImagesButton = {
+  mailnotify,
   next: follow,
   mailinvite,
   doc,

@@ -32,10 +32,12 @@ const screenfull = require('./assets/btn-screenfull.svg');
 const screen = require('./assets/btn-screen.svg');
 const doc = require('./assets/btn-doc.svg');
 const mailinvite = require('./assets/btn-mailinvite.svg');
+const mailnotify = require('./assets/btn-mailnotify.svg');
 
 const unknow = require('./assets/btn-unknow.svg');
 
 export const ImagesButton = {
+  mailnotify,
   next: follow,
   mailinvite,
   doc,
