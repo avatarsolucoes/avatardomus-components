@@ -15,7 +15,13 @@ export default function Text(props) {
   const classe = cx(classCss, className);
 
   return (
-    <Span bold={bold} className={classe} onDoubleClick={onDoubleClick} onClick={onClick} {...rest}>
+    <Span
+      bold={!!bold}
+      className={classe}
+      onDoubleClick={onDoubleClick}
+      onClick={onClick}
+      {...rest}
+    >
       {children || text}
     </Span>
   );

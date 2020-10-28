@@ -39,7 +39,7 @@
   display: block;
 }
 
-.textSpan, .textSpan.bold {
+.textSpan.bold {
   font-weight: bold;
 }
 
