@@ -10,16 +10,22 @@ import Grupo from '../Grupo';
 import UnFormCheckToogle from './index';
 
 export default function LineToogle(props) {
-  const { children, className, label, name, onChange, checked, ...rest } = props;
+  const { children, className, label, name, onChange, checked, labelFor, ...rest } = props;
   const classGrupo = cx(css.LineToogle, className);
   return (
     <Grupo className={classGrupo} fixed between>
       <div className={css.lineToogleText}>
         {children || label}
-        <label htmlFor={name} className={css.lineToogleLabel} />
+        <label htmlFor={labelFor || name} className={css.lineToogleLabel} />
       </div>
       <div>
-        <UnFormCheckToogle name={name} onChange={onChange} checked={checked} {...rest} />
+        <UnFormCheckToogle
+          labelFor={labelFor}
+          name={name}
+          onChange={onChange}
+          checked={checked}
+          {...rest}
+        />
       </div>
     </Grupo>
   );
@@ -32,6 +38,7 @@ LineToogle.propTypes = {
   children: PropTypes.any,
   onChange: PropTypes.func,
   checked: PropTypes.bool,
+  labelFor: PropTypes.string,
 };
 
 LineToogle.defaultProps = {
@@ -41,4 +48,5 @@ LineToogle.defaultProps = {
   children: null,
   onChange: () => {},
   checked: false,
+  labelFor: '',
 };

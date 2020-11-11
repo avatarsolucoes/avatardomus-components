@@ -30,6 +30,7 @@ export {
   LineToogle,
   CampoSelect,
   CampoHidden,
+  FormScope,
 } from './FormDomus';
 
 // export {

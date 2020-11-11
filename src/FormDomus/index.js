@@ -13,6 +13,7 @@ export { default as CampoSelect } from './CampoSelect';
 export { default as CampoMask } from './CampoMask';
 export { default as CheckToogle } from './CheckToogle';
 export { default as LineToogle } from './CheckToogle/LineToogle';
+export { default as FormScope } from './FormScope';
 // export { default as LineToogle } from './UnFormCheckToogle/LineToogle';
 // export { default as CheckToogle } from './CheckToogle';
 // export { default as LabelButton } from './LabelButton';

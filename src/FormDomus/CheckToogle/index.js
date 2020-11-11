@@ -29,7 +29,7 @@ function calculateSizes(altura, largura) {
 export default function UnFormCheckToogle(props) {
   const parentRef = useRef();
 
-  const { className, disabled, name, onChange, height, width, checked } = props;
+  const { className, disabled, name, onChange, height, width, checked, labelFor } = props;
 
   const [sizes, setSizes] = useState(calculateSizes(height, width));
 
@@ -96,7 +96,7 @@ export default function UnFormCheckToogle(props) {
           name={name}
           onChange={onChange}
         />
-        <label className={classLabel} htmlFor={name} />
+        <label className={classLabel} htmlFor={labelFor || name} />
       </div>
     </StyleCacheProvider>
   );
@@ -110,6 +110,7 @@ UnFormCheckToogle.propTypes = {
   onChange: PropTypes.func,
   height: PropTypes.number,
   width: PropTypes.number,
+  labelFor: PropTypes.string,
 };
 
 UnFormCheckToogle.defaultProps = {
@@ -120,4 +121,5 @@ UnFormCheckToogle.defaultProps = {
   onChange: () => {},
   height: 32,
   width: null,
+  labelFor: '',
 };
