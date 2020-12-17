@@ -81,7 +81,6 @@ export default function Select(props) {
   return (
     <>
       <select
-        // {...rest}
         id={fieldName}
         name={fieldName}
         defaultValue={initialData || defaultValue}
@@ -96,9 +95,9 @@ export default function Select(props) {
           </option>
         ) : null}
 
-        {myOptions.map(({ id, title, uid }) => {
+        {myOptions.map(({ id, title, uid, disabled }) => {
           return (
-            <option key={id} value={id} data-uid={uid}>
+            <option key={id} value={id} data-uid={uid} disabled={!!disabled}>
               {title}
             </option>
           );

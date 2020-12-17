@@ -23,10 +23,12 @@ CampoSelect.propTypes = {
   campoClass: PropTypes.string,
   options: PropTypes.array,
   wchild: PropTypes.oneOf(['', 'w50', 'w70', 'w100']),
+  onChange: PropTypes.func,
 };
 
 CampoSelect.defaultProps = {
   campoClass: null,
   options: [],
   wchild: '',
+  onChange: () => {},
 };
