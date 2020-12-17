@@ -101,6 +101,7 @@
 }
 
 .lbicon label[data-lbicon],
+.lbicon button[data-lbicon],
 .campo button[data-lbicon] {
   order: 0;
   border: rgba(0, 0, 0, 0) 1px solid;
@@ -116,6 +117,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   transition: all 0.2s ease;
+}
+
+.labelfix button {
+  display: block !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
 }
 
 .lbicon input,

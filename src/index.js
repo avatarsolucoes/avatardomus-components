@@ -31,6 +31,7 @@ export {
   CampoSelect,
   CampoHidden,
   FormScope,
+  LabelButton,
 } from './FormDomus';
 
 // export {
