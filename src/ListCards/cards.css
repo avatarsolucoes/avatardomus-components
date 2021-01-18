@@ -31,6 +31,11 @@
   border: 0;
 }
 
+.listOfCards .cardOffset.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .listOfCards .cardItem {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 4px;
@@ -109,6 +114,12 @@
     min-width: 25%;
   }
 
+  .listOfCards .mobileW30 {
+    width: 33.333%;
+    max-width: 33.333%;
+    min-width: 33.333%;
+  }
+
   .listOfCards .mobileW50 {
     width: 50%;
     max-width: 50%;
@@ -152,16 +163,98 @@
     min-width: 25%;
   }
 
+  .listOfCards .deskW30 {
+    width: 33.333%;
+    max-width: 33.333%;
+    min-width: 33.333%;
+  }
+
   .listOfCards .deskW50 {
     width: 50%;
     max-width: 50%;
     min-width: 50%;
   }
 
-  .listOfCards .deskW100 {
+  .listOfCards .tabletW100 {
     width: 100%;
     max-width: 100%;
     min-width: 100%;
+  }
+
+  .listOfCards .tabletW25 {
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
+  }
+  .listOfCards .tabletW30 {
+    width: 33.333%;
+    max-width: 33.333%;
+    min-width: 33.333%;
+  }
+
+  .listOfCards .tabletW50 {
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+  }
+
+  .listOfCards .tabletW100 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  /* CORRECAO PARA DESKTOP */
+  @media screen and (min-width: 920px) {
+    .listOfCards .cardItem {
+      width: auto;
+    }
+    .listOfCards .mini {
+      width: auto;
+      max-width: 100%;
+      min-width: 100px;
+    }
+    .listOfCards .w50 {
+      width: 50%;
+      max-width: 50%;
+      min-width: 50%;
+    }
+
+    .listOfCards .w25 {
+      width: 25%;
+      max-width: 25%;
+      min-width: 25%;
+    }
+
+    .listOfCards .w30 {
+      width: 33.333%;
+      max-width: 33.333%;
+      min-width: 33.333%;
+    }
+
+    .listOfCards .deskW25 {
+      width: 25%;
+      max-width: 25%;
+      min-width: 25%;
+    }
+
+    .listOfCards .deskW30 {
+      width: 33.333%;
+      max-width: 33.333%;
+      min-width: 33.333%;
+    }
+
+    .listOfCards .deskW50 {
+      width: 50%;
+      max-width: 50%;
+      min-width: 50%;
+    }
+
+    .listOfCards .deskW100 {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+    }
   }
 
 }
