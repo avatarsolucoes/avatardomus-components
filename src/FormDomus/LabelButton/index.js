@@ -8,7 +8,7 @@ import css from '../form-domus.css';
 import CampoContent from '../CampoContent';
 
 export default function LabelButton(props) {
-  const { id, name, type, value, lbicon, className, onClick, ...rest } = props;
+  const { id, name, type, value, lbicon, className, onClick, size, ...rest } = props;
   const classe = cx({ [css.lbicon]: true, bgcontrast: true, [css.labelfix]: true }, className);
   const styleLabel = { backgroundImage: `url(${getImageByType(lbicon, true)})` };
 
@@ -16,8 +16,10 @@ export default function LabelButton(props) {
     <CampoContent
       className={css.labelfix}
       style={{
-        width: 44,
-        maxWidth: 44,
+        width: size,
+        maxWidth: size,
+        height: size,
+        minHeight: size,
         padding: 0,
         margin: 0,
       }}
@@ -47,6 +49,7 @@ LabelButton.propTypes = {
   type: PropTypes.oneOf(['submit', 'button', 'reset']),
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   onClick: PropTypes.func,
+  size: PropTypes.number,
 };
 
 LabelButton.defaultProps = {
@@ -59,4 +62,5 @@ LabelButton.defaultProps = {
   type: 'button',
   value: '',
   onClick: () => {},
+  size: 44,
 };

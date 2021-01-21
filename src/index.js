@@ -32,6 +32,7 @@ export {
   CampoHidden,
   FormScope,
   LabelButton,
+  FormContext,
 } from './FormDomus';
 
 // export {

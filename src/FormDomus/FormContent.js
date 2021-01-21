@@ -5,16 +5,20 @@ import cx from 'classnames';
 import { Form } from '@rocketseat/unform';
 import css from './form-domus.css';
 
+import FormContext from './FormContext';
+
 export default function FormContent(props) {
-  const { children, className, initialData, width, onSubmit, ...rest } = props;
+  const { children, className, initialData, width, onSubmit, customContext, ...rest } = props;
   const styleCss = { [css.formDomus]: true };
 
   return (
-    <div className={cx(styleCss, className)} style={{ width }}>
-      <Form initialData={initialData} onSubmit={onSubmit} {...rest}>
-        {children}
-      </Form>
-    </div>
+    <FormContext.Provider value={customContext}>
+      <div className={cx(styleCss, className)} style={{ width }}>
+        <Form initialData={initialData} onSubmit={onSubmit} {...rest}>
+          {children}
+        </Form>
+      </div>
+    </FormContext.Provider>
   );
 }
 
@@ -24,6 +28,7 @@ FormContent.propTypes = {
   initialData: PropTypes.object,
   onSubmit: PropTypes.func,
   width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  customContext: PropTypes.any,
 };
 
 FormContent.defaultProps = {
@@ -32,4 +37,5 @@ FormContent.defaultProps = {
   initialData: {},
   onSubmit: () => {},
   width: '100%',
+  customContext: {},
 };
