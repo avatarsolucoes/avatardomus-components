@@ -33,6 +33,7 @@ export {
   FormScope,
   LabelButton,
   FormContext,
+  CampoMultiline,
 } from './FormDomus';
 
 // export {

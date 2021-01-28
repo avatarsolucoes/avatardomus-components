@@ -20,3 +20,4 @@ export { default as LabelButton } from './LabelButton';
 // export { default as CheckToogle } from './CheckToogle';
 // export { default as LabelButton } from './LabelButton';
 // export { default as CampoSearch } from './CampoSearch';
+export { default as CampoMultiline } from './CampoMultiline';
