@@ -30,6 +30,7 @@ import { ReactComponent as Website } from './assets/lb-website.svg';
 import { ReactComponent as Follow } from './assets/lb-follow.svg';
 import { ReactComponent as Condominio } from './assets/lb-cond.svg';
 import { ReactComponent as Clock } from './assets/lb-clock.svg';
+import { ReactComponent as Undo } from './assets/lb-undo.svg';
 
 export const listImagesAsComponent = {
   Clock,
@@ -65,6 +66,7 @@ export const listImagesAsComponent = {
   Macaddr,
   Barcode,
   Unknow,
+  Undo,
 };
 
 export default listImagesAsComponent;

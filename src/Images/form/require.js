@@ -29,10 +29,12 @@ const website = require('./assets/lb-website.svg');
 const follow = require('./assets/lb-follow.svg');
 const condominio = require('./assets/lb-cond.svg');
 const clock = require('./assets/lb-clock.svg');
+const undo = require('./assets/lb-undo.svg');
 
 const unknow = require('./assets/unknow.svg');
 
 export const listImagesRequire = {
+  undo,
   clock,
   condominio,
   next: follow,

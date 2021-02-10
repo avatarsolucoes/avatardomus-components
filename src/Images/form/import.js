@@ -28,9 +28,11 @@ import website from './assets/lb-website.svg';
 import follow from './assets/lb-follow.svg';
 import condominio from './assets/lb-cond.svg';
 import clock from './assets/lb-clock.svg';
+import undo from './assets/lb-undo.svg';
 import unknow from './assets/unknow.svg';
 
 export const listImagesImport = {
+  undo,
   clock,
   condominio,
   next: follow,
