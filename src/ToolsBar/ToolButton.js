@@ -12,9 +12,10 @@ import ToolItem from './ToolItem';
 // };
 
 export default function ToolButton(props) {
-  const { className, disabled, icon, actived, activedColor, ...rest } = props;
+  const { className, disabled, icon, actived, activedColor, style, itemStyle, ...rest } = props;
 
   const styles = {
+    ...style,
     backgroundImage: `url(${imgButton.getImageByType(icon, true)})`,
   };
 
@@ -33,7 +34,7 @@ export default function ToolButton(props) {
   });
 
   return (
-    <ToolItem>
+    <ToolItem style={itemStyle}>
       <button type="button" className={classBtn} {...rest} disabled={disabled} style={styles} />
     </ToolItem>
   );
@@ -45,6 +46,8 @@ ToolButton.propTypes = {
   actived: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   icon: PropTypes.string,
   activedColor: PropTypes.string,
+  style: PropTypes.object,
+  itemStyle: PropTypes.object,
 };
 
 ToolButton.defaultProps = {
@@ -53,5 +56,7 @@ ToolButton.defaultProps = {
   actived: false,
   activedColor: null,
   icon: 'unknow',
+  style: {},
+  itemStyle: {},
   // type: 'button',
 };
